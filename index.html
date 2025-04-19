@@ -25,7 +25,7 @@
         <div class="second" style="display: none;">
             <nav>
 
-                <div class="user_info" style="display: none;">
+                <div class=" user_info" style="display: none;">
                     <div class="system_info">
                         <div class="sys_img"></div>
                         <p>System Name:</p>
@@ -53,10 +53,10 @@
                     <p>Login (Demo)</p>
                     <hr style="margin-top: 20px; margin-bottom: 30px;">
                     <label for="">Username</label>
-                    <input type="text" autocomplete="off">
-                    <label for="" style="position: relative; top: 4px;">Password</label>
-                    <input type="password" autocomplete="off">
-                    <button>Login</button>
+                    <input id="name" type="text" autocomplete="off" style="padding-left: 10px;">
+                    <label for="" style=" position: relative; top: 4px;">Password</label>
+                    <input id="pass" type="password" autocomplete="off" style="padding-left: 10px;">
+                    <button onclick="login()">Login</button>
                     <p style="color: #f88807;">click Login to procced</p>
                     <p style=" color: #f88807; font-size: 13px;">Additional information: This is just a
                         practice site so you can enter any username/password here</p>
@@ -193,7 +193,7 @@
                             Examinations</label>
                         <hr style="margin-top: 25px; margin-bottom: 20px;">
 
-                        <button id="procced"
+                        <button id="procced" onclick="proc()"
                             style=" cursor: pointer; width: 400px; height: 30px; font-weight: bold;color: white; background-color:#5cb85c;  border: none; display: block; position: relative; margin-left: auto; margin-right: auto;">PROCEED</button>
                     </div>
 
@@ -202,19 +202,19 @@
 
             </div>
         </div>
-        <div class="forth">
+        <div class="forth" style="display: nne;">
             <nav>
-                <div class="user_info" style="display: nne;">
+                <div class="user_info">
                     <div class="user">
                         <div class="user_img"></div>
                         <div class="user_text">
                             <span>Candidate Name:</span>
-                            <span> [Your Name]
+                            <span id="n"> [Your Name]
                             </span>
                             <span> <br>Exam Name :</span>
                             <span>[Practice paper] </span>
                             <span> <br>Subject Name :</span>
-                            <span>[Practice paper]</span>
+                            <span>Geography</span>
                             <span> <br>Remaining Time :</span>
                             <span> <span id="min">0</span>:<span id="sec">0</span> </span>
                         </div>
@@ -222,129 +222,154 @@
                     </div>
                 </div>
             </nav>
-            <div class="test" style="display: one;">
-                <div class="questions" ">
-                   
-                    
+            <div class="test">
+                <div class="questions">
+
+
                     <div class=" ques">
 
 
-                </div>
-                <div class="buttons">
-                    <button onclick="save()"
-                        style="cursor: pointer; background-color: #4cae4c; border: none; color: white; font-size: 13px;">SAVE
-                        &
-                        NEXT</button>
-                    <button onclick="clean()" style="background-color: transparent;  color: #555555; border: 1px solid #555555
+                    </div>
+                    <div class="buttons">
+                        <button onclick="save()"
+                            style="cursor: pointer; background-color: #4cae4c; border: none; color: white; font-size: 13px;">SAVE
+                            &
+                            NEXT</button>
+                        <button onclick="clean()" style="background-color: transparent;  color: #555555; border: 1px solid #555555
 
                         ; font-size: 13px; cursor: pointer;"> CLEAR</button>
-                    <button onclick="saved_review()" style="background-color: #f0ad4e;  color: white; border:none
+                        <button onclick="saved_review()" style="background-color: #f0ad4e;  color: white; border:none
 
                         ; cursor: pointer; font-size: 13px;"> SAVE & MARK FOR REVIEW</button>
-                    <button onclick="review()"
-                        style="background-color: #337ab7; border: none; color: white; cursor: pointer;"> MARK
-                        FOR REVIEW & NEXT
-                    </button>
+                        <button onclick="review()"
+                            style="background-color: #337ab7; border: none; color: white; cursor: pointer;"> MARK
+                            FOR REVIEW & NEXT
+                        </button>
+                    </div>
+                    <div class="WA">
+                        <button onclick="back()">
+                            << BACK</button>
+                                <button onclick="next()">NEXT >></button>
+                                <button onclick="submit()">SUBMIT</button>
+                    </div>
                 </div>
-                <div class="WA">
-                    <button onclick="back()">
-                        << BACK</button>
-                            <button onclick="next()">NEXT >></button>
-                            <button onclick="submit()">SUBMIT</button>
+                <div class="answer"></div>
+                <div class="info">
+                    <table>
+                        <thead>
+                            <td>
+                                <div class=" ico" style="background-image: url(src/Logo1.png);"> 0
+                                </div>
+                            </td>
+                            <td>Not Visited </td>
+                            <td>
+                                <div class="ico" style="background-image: url(src/Logo2.png);"> 0</div>
+                            </td>
+                            <td>Not Answered</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="ico" style="background-image: url(src/Logo3.png);"> 0</div>
+                                </td>
+                                <td>Answered </td>
+                                <td>
+                                    <div class="ico" style="background-image: url(src/Logo4.png);"> 0</div>
+                                </td>
+                                <td>Marked for Review
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="ico" style="background-image: url(src/Logo5.png);"> 0</div>
+                                </td>
+                                <td style="width: 100%;">Answered & Marked for Review (will be considered for
+                                    evaluation)
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+                <div class="num">
+
+
                 </div>
             </div>
-            <div class="answer"></div>
-            <div class="info">
-                <table>
-                    <thead>
-                        <td>
-                            <div class=" ico" style="background-image: url(src/Logo1.png);"> 0
-                            </div>
-                        </td>
-                        <td>Not Visited </td>
-                        <td>
-                            <div class="ico" style="background-image: url(src/Logo2.png);"> 0</div>
-                        </td>
-                        <td>Not Answered</td>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="ico" style="background-image: url(src/Logo3.png);"> 0</div>
-                            </td>
-                            <td>Answered </td>
-                            <td>
-                                <div class="ico" style="background-image: url(src/Logo4.png);"> 0</div>
-                            </td>
-                            <td>Marked for Review
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="ico" style="background-image: url(src/Logo5.png);"> 0</div>
-                            </td>
-                            <td style="width: 100%;">Answered & Marked for Review (will be considered for evaluation)
-                            </td>
-                        </tr>
+            <div class="note">
+                <div
+                    style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
+                    <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
+                        purposes</strong>. It is not intended to spread any false information or mislead users in any
+                    way.
+                    The
+                    interface and design of this site are inspired by the official NTA website to provide a realistic
+                    user
+                    experience for development and testing.
 
+                    <br><br>
 
-                    </tbody>
-                </table>
+                    This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
+                    (like
+                    your answers or progress) are stored locally in your browser only. It's not like I can't make a
+                    backend...
+                    I'm just lazy 🥲.
 
+                    <br><br>
 
+                    For accurate and official information, please visit the official NTA quiz portal here:
+                    <a href="https://www.nta.ac.in/quiz" target="_blank"
+                        rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
+
+                    <br><br>
+
+                    We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
+                    only.
+
+                    <br><br>
+
+                    Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
+                </div>
             </div>
-            <div class="num">
 
 
-            </div>
-        </div>
-        <div class="note">
-            <div
-                style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
-                <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
-                    purposes</strong>. It is not intended to spread any false information or mislead users in any way.
-                The
-                interface and design of this site are inspired by the official NTA website to provide a realistic user
-                experience for development and testing.
 
-                <br><br>
 
-                This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
-                (like
-                your answers or progress) are stored locally in your browser only. It's not like I can't make a
-                backend...
-                I'm just lazy 🥲.
-
-                <br><br>
-
-                For accurate and official information, please visit the official NTA quiz portal here:
-                <a href="https://www.nta.ac.in/quiz" target="_blank"
-                    rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
-
-                <br><br>
-
-                We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
-                only.
-
-                <br><br>
-
-                Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
-            </div>
         </div>
 
 
-    </div>
-
-    <footer>
-        <p style="color: white; font-size: 11px;">© All Rights Reserved - National Testing Agency</p>
-    </footer>
+        <footer>
+            <p style="color: white; font-size: 11px;">© All Rights Reserved - National Testing Agency</p>
+        </footer>
 
     </div>
 
     <style>
+        .result {
+            border: 1px solid red;
+            width: 100%;
+            height: 100%;
+        }
+
         * {
             margin: 0;
             padding: 0;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+        }
+
+        .score h1 {
+            background-color: rgba(245, 222, 179, 0.438);
+            margin-left: 5px;
+            border-radius: 30px;
+            width: 40px;
+            text-align: center;
         }
 
         .note {
@@ -963,23 +988,26 @@
     </style>
     <script>
         //This ain’t code. This is arcane sorcery disguised as JavaScript.
-        let now = 0
-        let m = 60
-        let last = 10
-        function start_timer() {
-            now = Date.now()
-            setInterval(() => {
+        let name;
+        function login() {
+            name = document.getElementById('name').value
+            //  alert(name)
+            if (name === '') {
+                alert('username cant be emty')
+                document.getElementById('name').focus()
 
-                --m
-                document.getElementById('sec').innerText = m       //Math.floor((Date.now() - now) / 1000)
-                if (m === 0) {
-                    --last
+            }
+            else {
+                document.getElementsByClassName('second')[0].style.display = 'none'
+                document.getElementsByClassName('third')[0].style.display = 'block'
 
-
-                }
-                document.getElementById('min').innerText = last
-
-            }, 1000);
+            }
+        }
+        function proc() {
+            document.getElementsByClassName('third')[0].style.display = 'none'
+            document.getElementsByClassName('forth')[0].style.display = 'block'
+            start_timer()
+            document.getElementById('n').innerText = name
 
         }
 
@@ -988,7 +1016,87 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let now = 0
+        let m = 10
+        let last = 0
+        function start_timer() {
+            now = Date.now()
+
+            setInterval(() => {
+
+                --m
+                document.getElementById('sec').innerText = m       //Math.floor((Date.now() - now) / 1000)
+                if (m === 0 && m != 0) {
+                    --last
+                    m = 60
+
+
+                }
+                else {
+                    /*  a++
+                      if (a == 1) {
+                          if (m < 0) {
+  
+                              alert('times up')
+  
+                              submit()
+  
+                          }
+                      }
+  
+  
+  
+  */
+
+
+
+
+
+
+
+
+
+
+                }
+                document.getElementById('min').innerText = last
+
+
+
+            }, 1000);
+
+
+
+        }
+
+
+
         start_timer()
+
+
+
 
 
 
@@ -1006,13 +1114,15 @@
         let q_bth = document.getElementsByClassName('num')[0]
         let a;
         q_bth.addEventListener('click', (e) => {
-
-
-            document.getElementById(e.target.id).style.backgroundImage = 'url(src/Logo2.png)'
-            document.getElementById(e.target.id).style.color = 'white'
             solving = e.target.id
-            console.log(solving, 's')
-            console.log('w', e.target.id)
+
+            document.getElementById(parseInt(solving)).style.backgroundImage = 'url(src/Logo2.png)'
+            document.getElementById(parseInt(solving)).style.color = 'white'
+
+            solving--
+            // console.log(solving, 's')
+            display(0)
+            // console.log('w', e.target.id)
 
 
 
@@ -1023,26 +1133,25 @@
         )
 
         let i = 0
-        function display() {
+        function display(n) {
             fetch('src/class12_geography_mock_test_numbered.json')
                 .then(a => a.json())
                 .then(data => {
-                    //    console.log(data)
-                    //  console.log(parseInt(solving))
-                    // console.log(data[parseInt(solving)].question)
+
 
                     ques.innerHTML = ""
+                    // console.log(solving, n)
 
-                    //    questionn.innerHTML = `Question ${solving}:`
+
 
                     ques.innerHTML += `
-                    <p id=" qn" style=" margin-top: 10px; margin-bottom:20px ; margin-left: 0px; font-weight: bold;">Question ${parseInt(solving + 1)} </p>
-                <p>${data[parseInt(solving)].question}</p>
+                    <p id=" qn" style=" margin-top: 10px; margin-bottom:20px ; margin-left: 0px; font-weight: bold;">Question ${parseInt(solving) + 1} </p>
+                <p>${data[parseInt(solving) + n].question}</p>
                         <ol type="1" style="margin-left: 30px; margin-bottom:20px;">
-                            <li style="margin-top: 20px;">${data[parseInt(solving)].options[1]}</li>
-                            <li style="margin-top: 20px;">${data[parseInt(solving)].options[2]}</li>
-                            <li style="margin-top: 20px;">${data[parseInt(solving)].options[3]}</li>
-                            <li style="margin-top: 20px;">${data[parseInt(solving)].options[4]}</li>
+                            <li style="margin-top: 20px;">${data[parseInt(solving) + n].options[1]}</li>
+                            <li style="margin-top: 20px;">${data[parseInt(solving) + n].options[2]}</li>
+                            <li style="margin-top: 20px;">${data[parseInt(solving) + n].options[3]}</li>
+                            <li style="margin-top: 20px;">${data[parseInt(solving) + n].options[4]}</li>
                         </ol>
                         <div class="opt">
                             <label style="color: black;" for="first"><input id="opt1" type="radio" name="chose"> 1)
@@ -1060,11 +1169,11 @@
                     let opt = document.getElementsByClassName('opt')[0]
                     opt.addEventListener('change', (e) => {
                         answer[solving] = e.target.id
-                        console.log(answer)
+                        // console.log(answer)
                     })
                     checkbox = checkbox = opt.getElementsByTagName('input')
                     if (answer[solving]) {
-                        console.log(answer[solving])
+                        // console.log(answer[solving])
                         document.getElementById(answer[solving]).checked = true
 
 
@@ -1085,21 +1194,26 @@
 
                 })
         }
-        display()
+        display(0)
 
 
         function review() {
             console.log(solving)
-            document.getElementById(parseInt(solving + 1)).style.backgroundImage = 'url(src/Logo4.png)'
-            document.getElementById(parseInt(solving + 1)).style.color = 'white'
+
+            document.getElementById(parseInt(solving) + 1).style.backgroundImage = 'url(src/Logo4.png)'
+            document.getElementById(parseInt(solving) + 1).style.color = 'white'
+            solving++
+            display(1)
 
         }
         function saved_review() {
             console.log(solving)
             a = Array.from(checkbox).some(c => c.checked)
             if (a) {
-                document.getElementById(solving).style.backgroundImage = 'url(src/Logo5.png)'
-                document.getElementById(solving).style.color = 'white'
+                document.getElementById(parseInt(solving) + 1).style.backgroundImage = 'url(src/Logo5.png)'
+                document.getElementById(parseInt(solving) + 1).style.color = 'white'
+                solving++
+                display(1)
 
 
 
@@ -1107,16 +1221,16 @@
 
             }
             else {
-                console.log(a)
+                // console.log(a)
                 alert('please select a answer before changing')
 
             }
 
         }
         function clean() {
-            console.log(solving)
+            // console.log(solving)
             let temp = 'opt' + solving
-            console.log(temp)
+            // console.log(temp)
             let che = document.getElementById(temp)
             Array.from(checkbox).forEach((e) => {
                 e.checked = false
@@ -1133,27 +1247,34 @@
                 document.getElementById(solving).style.color = 'white'
             }
 
-            console.log(solving)
+            // console.log(solving)
 
-            display()
+            display(1)
             if (answer[solving]) {
-                console.log('ok')
+                // console.log('ok')
 
             }
 
         }
         function back() {
-            console.log(solving)
+            // console.log(solving)
 
             if (solving > 0) {
                 solving--
             }
 
 
-            display()
+            display(1)
         }
 
+
         function save() {
+
+
+
+
+
+
             a = Array.from(checkbox).some(c => c.checked)
             if (a) {
 
@@ -1161,13 +1282,49 @@
                 document.getElementById(parseInt(solving + 1)).style.backgroundImage = 'url(src/Logo3.png)'
                 document.getElementById(parseInt(solving + 1)).style.color = 'white'
                 solving++
-                display()
+                display(0)
             }
             else {
-                console.log(a)
+                // console.log(a)
                 alert('please select a answer before changing')
 
             }
+
+
+        }
+        let ao
+        let score = 0
+        function submit() {
+            fetch('src/class12_geography_mock_test_numbered.json')
+                .then(d => d.json())
+                .then(data => {
+                    let i = 0
+                    ao = Object.values(answer)
+
+
+                    // console.log(ao)
+                    while (ao.length != i) {
+
+                        if (ao[i].split('')[3] === data[i].answer) {
+                            // console.log('yes')
+                            score++
+
+                        }
+                        else {
+                            // console.log('na answer is', ao[i].split('')[3], data[i].answer)
+                        }
+                        i++
+                        //  // console.log(data[i].answer)
+                    }
+                    // console.log(score)
+
+
+
+                    //    // console.log('answer', a)
+
+
+
+                })
 
 
         }

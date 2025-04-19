@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gay Test</title>
+    <link rel="shortcut icon" href="src/images.jpeg" type="image/x-icon">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         </div>
 
 
-        <div class="second" style="display: none;">
+        <div class="second">
             <nav>
 
                 <div class=" user_info" style="display: none;">
@@ -84,7 +85,7 @@
                                 Instructions:</u></h4>
                         <ul>
                             <ol type="1">
-                                <li>Total duration of JEE-Main - 4050367_B PLANNING 6th JAN 2020 Shift 2 Set 2 is 180
+                                <li>Total duration of Practice Test is 10
                                     min.</li>
                                 <li>The clock will be set at the server. The countdown timer in the top right corner of
                                     screen will display the remaining time available for you to complete the
@@ -202,7 +203,7 @@
 
             </div>
         </div>
-        <div class="forth" style="display: nne;">
+        <div class="forth" style="display: none;">
             <nav>
                 <div class="user_info">
                     <div class="user">
@@ -299,41 +300,25 @@
 
                 </div>
             </div>
-            <div class="note">
-                <div
-                    style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
-                    <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
-                        purposes</strong>. It is not intended to spread any false information or mislead users in any
-                    way.
-                    The
-                    interface and design of this site are inspired by the official NTA website to provide a realistic
-                    user
-                    experience for development and testing.
+            <div class="scor" style="display: none;"">
+                <div class=" card">
 
-                    <br><br>
+                <span style="display: flex; color: rgb(20, 0, 0); flex-direction: row;;">You answered <h2 id="s"
+                        style="margin-top: -5px; margin-left: 2px; margin-right: 2px;"> 0 </h2> Questions
+                    Correctly</span> <br>
+                <button onclick="location.reload()">Retry</button>
 
-                    This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
-                    (like
-                    your answers or progress) are stored locally in your browser only. It's not like I can't make a
-                    backend...
-                    I'm just lazy 🥲.
-
-                    <br><br>
-
-                    For accurate and official information, please visit the official NTA quiz portal here:
-                    <a href="https://www.nta.ac.in/quiz" target="_blank"
-                        rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
-
-                    <br><br>
-
-                    We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
-                    only.
-
-                    <br><br>
-
-                    Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
-                </div>
             </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -341,13 +326,107 @@
         </div>
 
 
-        <footer>
-            <p style="color: white; font-size: 11px;">© All Rights Reserved - National Testing Agency</p>
-        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="note">
+            <div
+                style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
+                <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
+                    purposes</strong>. It is not intended to spread any false information or mislead users in any
+                way.
+                The
+                interface and design of this site are inspired by the official NTA website to provide a realistic
+                user
+                experience for development and testing.
+
+                <br><br>
+
+                This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
+                (like
+                your answers or progress) are stored locally in your browser only. It's not like I can't make a
+                backend...
+                I'm just lazy 🥲.
+
+                <br><br>
+
+                For accurate and official information, please visit the official NTA quiz portal here:
+                <a href="https://www.nta.ac.in/quiz" target="_blank"
+                    rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
+
+                <br><br>
+
+                We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
+                only.
+
+                <br><br>
+
+                Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <footer>
+        <p style="color: white; font-size: 11px;">last update 20/04/25 12:30Am goodnight 🫠</p>
+    </footer>
 
     </div>
 
     <style>
+        .scor {
+            top: 0;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+
+        }
+
+        .card {
+
+            border-radius: 10px;
+            width: 350px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.247);
+            backdrop-filter: blur(3px);
+        }
+
         .result {
             border: 1px solid red;
             width: 100%;
@@ -1040,8 +1119,8 @@
 
 
         let now = 0
-        let m = 10
-        let last = 0
+        let m = 60
+        let last = 10
         function start_timer() {
             now = Date.now()
 
@@ -1056,20 +1135,20 @@
 
                 }
                 else {
-                    /*  a++
-                      if (a == 1) {
-                          if (m < 0) {
-  
-                              alert('times up')
-  
-                              submit()
-  
-                          }
-                      }
-  
-  
-  
-  */
+
+
+
+                    if (m < 0) {
+
+
+
+                        submit()
+
+                    }
+
+
+
+
 
 
 
@@ -1093,7 +1172,7 @@
 
 
 
-        start_timer()
+        //   start_timer()
 
 
 
@@ -1306,17 +1385,19 @@
                     while (ao.length != i) {
 
                         if (ao[i].split('')[3] === data[i].answer) {
-                            // console.log('yes')
+                            console.log('yes')
                             score++
 
                         }
                         else {
-                            // console.log('na answer is', ao[i].split('')[3], data[i].answer)
+                            console.log('na answer is', ao[i].split('')[3], data[i].answer)
                         }
                         i++
                         //  // console.log(data[i].answer)
                     }
-                    // console.log(score)
+                    document.getElementsByClassName("scor")[0].style.display = "flex"
+                    document.getElementById('s').innerText = score
+                    //    console.log(score)
 
 
 

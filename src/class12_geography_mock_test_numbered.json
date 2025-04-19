@@ -1,1201 +1,441 @@
 [
     {
         "id": 1,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which is the largest state in India by area?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 2,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Rajasthan",
+            "2": "Madhya Pradesh",
+            "3": "Maharashtra",
+            "4": "Uttar Pradesh"
         },
         "answer": "1"
     },
     {
-        "id": 3,
-        "question": "Which one of the following is a tertiary activity?",
+        "id": 2,
+        "question": "Which is the smallest Indian state by area?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "Sikkim",
+            "2": "Goa",
+            "3": "Tripura",
+            "4": "Manipur"
         },
-        "answer": "3"
+        "answer": "2"
+    },
+    {
+        "id": 3,
+        "question": "Which river is known as the 'Dakshina Ganga'?",
+        "options": {
+            "1": "Krishna",
+            "2": "Godavari",
+            "3": "Cauvery",
+            "4": "Mahanadi"
+        },
+        "answer": "2"
     },
     {
         "id": 4,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "question": "Which Indian state has the longest coastline?",
         "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Tamil Nadu",
+            "2": "Gujarat",
+            "3": "Maharashtra",
+            "4": "Andhra Pradesh"
         },
-        "answer": "4"
+        "answer": "2"
     },
     {
         "id": 5,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "question": "In which state is the Chilika Lake located?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "Odisha",
+            "2": "Andhra Pradesh",
+            "3": "West Bengal",
+            "4": "Kerala"
         },
         "answer": "1"
     },
     {
         "id": 6,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which river flows westward into the Arabian Sea?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
+            "1": "Godavari",
+            "2": "Narmada",
+            "3": "Yamuna",
+            "4": "Ganga"
         },
-        "answer": "3"
+        "answer": "2"
     },
     {
         "id": 7,
-        "question": "What does the term 'population density' refer to?",
+        "question": "The Thar Desert is located in which state?",
         "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Rajasthan",
+            "2": "Gujarat",
+            "3": "Punjab",
+            "4": "Haryana"
         },
         "answer": "1"
     },
     {
         "id": 8,
-        "question": "Which one of the following is a tertiary activity?",
+        "question": "The 'Sundarbans' are famous for which type of forest?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 9,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 10,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "Mangrove",
+            "2": "Evergreen",
+            "3": "Deciduous",
+            "4": "Thorny"
         },
         "answer": "1"
     },
     {
-        "id": 11,
-        "question": "Which one of the following is not a plantation crop?",
+        "id": 9,
+        "question": "Which is the highest peak in South India?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
+            "1": "Anamudi",
+            "2": "Doddabetta",
+            "3": "Agasthyamalai",
+            "4": "Mahendragiri"
         },
-        "answer": "3"
+        "answer": "1"
+    },
+    {
+        "id": 10,
+        "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+        "options": {
+            "1": "Haryana",
+            "2": "Punjab",
+            "3": "Rajasthan",
+            "4": "Uttar Pradesh"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 11,
+        "question": "Which river is the main source of water for the Bhakra Nangal Dam?",
+        "options": {
+            "1": "Yamuna",
+            "2": "Sutlej",
+            "3": "Beas",
+            "4": "Ganga"
+        },
+        "answer": "2"
     },
     {
         "id": 12,
-        "question": "What does the term 'population density' refer to?",
+        "question": "The Eastern and Western Ghats meet at:",
         "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Nilgiri Hills",
+            "2": "Anamudi",
+            "3": "Aravalli Hills",
+            "4": "Satpura Range"
         },
         "answer": "1"
     },
     {
         "id": 13,
-        "question": "Which one of the following is a tertiary activity?",
+        "question": "Which is the highest mountain peak in India?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "Nanda Devi",
+            "2": "Mount Everest",
+            "3": "Kanchenjunga",
+            "4": "Kamet"
         },
         "answer": "3"
     },
     {
         "id": 14,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "question": "Which plateau is known as the 'Mineral Belt of India'?",
         "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Malwa Plateau",
+            "2": "Deccan Plateau",
+            "3": "Chota Nagpur Plateau",
+            "4": "Meghalaya Plateau"
         },
-        "answer": "4"
+        "answer": "3"
     },
     {
         "id": 15,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "question": "Which Indian river forms a delta before entering the Bay of Bengal?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "Narmada",
+            "2": "Tapti",
+            "3": "Ganga",
+            "4": "Yamuna"
         },
-        "answer": "1"
+        "answer": "3"
     },
     {
         "id": 16,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which is the southernmost point of the Indian mainland?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 17,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Kanyakumari",
+            "2": "Indira Point",
+            "3": "Kovalam",
+            "4": "Rameswaram"
         },
         "answer": "1"
     },
     {
-        "id": 18,
-        "question": "Which one of the following is a tertiary activity?",
+        "id": 17,
+        "question": "Which region in India receives the highest annual rainfall?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "Cherrapunji",
+            "2": "Mawsynram",
+            "3": "Agartala",
+            "4": "Shillong"
         },
-        "answer": "3"
+        "answer": "2"
     },
     {
-        "id": 19,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "id": 18,
+        "question": "What type of soil is most suitable for growing cotton?",
         "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Red Soil",
+            "2": "Laterite Soil",
+            "3": "Alluvial Soil",
+            "4": "Black Soil"
         },
         "answer": "4"
     },
     {
-        "id": 20,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "id": 19,
+        "question": "The Indian Standard Time (IST) is based on which meridian?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "82.5° E",
+            "2": "90° E",
+            "3": "75° E",
+            "4": "66.5° E"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 20,
+        "question": "Which Indian state has no international border?",
+        "options": {
+            "1": "Haryana",
+            "2": "Rajasthan",
+            "3": "West Bengal",
+            "4": "Assam"
         },
         "answer": "1"
     },
     {
         "id": 21,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which is the longest river in India?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
+            "1": "Ganga",
+            "2": "Godavari",
+            "3": "Yamuna",
+            "4": "Brahmaputra"
         },
-        "answer": "3"
+        "answer": "1"
     },
     {
         "id": 22,
-        "question": "What does the term 'population density' refer to?",
+        "question": "Which state is known as the 'Spice Garden of India'?",
         "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Kerala",
+            "2": "Karnataka",
+            "3": "Goa",
+            "4": "Madhya Pradesh"
         },
         "answer": "1"
     },
     {
         "id": 23,
-        "question": "Which one of the following is a tertiary activity?",
+        "question": "Which is the largest freshwater lake in India?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 24,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Chilika Lake",
+            "2": "Vembanad Lake",
+            "3": "Loktak Lake",
+            "4": "Wular Lake"
         },
         "answer": "4"
     },
     {
-        "id": 25,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "id": 24,
+        "question": "Which is the largest island in India?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "Andaman Island",
+            "2": "Lakshadweep",
+            "3": "Sundarbans",
+            "4": "Majuli"
         },
         "answer": "1"
+    },
+    {
+        "id": 25,
+        "question": "Which state has the highest forest cover in India?",
+        "options": {
+            "1": "Madhya Pradesh",
+            "2": "Chhattisgarh",
+            "3": "Mizoram",
+            "4": "Uttarakhand"
+        },
+        "answer": "3"
     },
     {
         "id": 26,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "The 'Blue Mountain' is located in which state?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 27,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Tamil Nadu",
+            "2": "Karnataka",
+            "3": "Kerala",
+            "4": "Andhra Pradesh"
         },
         "answer": "1"
     },
     {
-        "id": 28,
-        "question": "Which one of the following is a tertiary activity?",
+        "id": 27,
+        "question": "Which state is known for the world's largest tea garden?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "West Bengal",
+            "2": "Assam",
+            "3": "Darjeeling",
+            "4": "Himachal Pradesh"
         },
-        "answer": "3"
+        "answer": "2"
+    },
+    {
+        "id": 28,
+        "question": "Which country shares the longest international border with India?",
+        "options": {
+            "1": "Bangladesh",
+            "2": "China",
+            "3": "Nepal",
+            "4": "Pakistan"
+        },
+        "answer": "1"
     },
     {
         "id": 29,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "question": "Which state is known as the 'Land of Rising Sun'?",
         "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Assam",
+            "2": "Sikkim",
+            "3": "Nagaland",
+            "4": "Arunachal Pradesh"
         },
         "answer": "4"
     },
     {
         "id": 30,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "question": "Which state has the largest area of mangrove forests in India?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "West Bengal",
+            "2": "Andhra Pradesh",
+            "3": "Odisha",
+            "4": "Gujarat"
         },
         "answer": "1"
     },
     {
         "id": 31,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which mountain range separates Europe from Asia?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
+            "1": "Himalayas",
+            "2": "Ural Mountains",
+            "3": "Rocky Mountains",
+            "4": "Andes"
         },
-        "answer": "3"
+        "answer": "2"
     },
     {
         "id": 32,
-        "question": "What does the term 'population density' refer to?",
+        "question": "The capital of the Indian state of Goa is:",
         "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Panaji",
+            "2": "Margao",
+            "3": "Vasco da Gama",
+            "4": "Mapusa"
         },
         "answer": "1"
     },
     {
         "id": 33,
-        "question": "Which one of the following is a tertiary activity?",
+        "question": "Which is the largest state in India by population?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "Bihar",
+            "2": "Uttar Pradesh",
+            "3": "Maharashtra",
+            "4": "West Bengal"
         },
-        "answer": "3"
+        "answer": "2"
     },
     {
         "id": 34,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "question": "Which is the second longest river in India?",
+        "options": {
+            "1": "Godavari",
+            "2": "Yamuna",
+            "3": "Brahmaputra",
+            "4": "Krishna"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 35,
+        "question": "Which of these rivers does not flow into the Bay of Bengal?",
         "options": {
             "1": "Ganga",
-            "2": "Yamuna",
+            "2": "Godavari",
             "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "4": "Narmada"
         },
         "answer": "4"
     },
     {
-        "id": 35,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
         "id": 36,
-        "question": "Which one of the following is not a plantation crop?",
+        "question": "Which is the largest city by area in India?",
         "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
+            "1": "Mumbai",
+            "2": "Delhi",
+            "3": "Bangalore",
+            "4": "Chennai"
         },
-        "answer": "3"
+        "answer": "2"
     },
     {
         "id": 37,
-        "question": "What does the term 'population density' refer to?",
+        "question": "The famous temple town of Kumbakonam is located in which state?",
         "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
+            "1": "Kerala",
+            "2": "Tamil Nadu",
+            "3": "Andhra Pradesh",
+            "4": "Karnataka"
         },
-        "answer": "1"
+        "answer": "2"
     },
     {
         "id": 38,
-        "question": "Which one of the following is a tertiary activity?",
+        "question": "Which Indian state is known as the 'Land of Lakes'?",
         "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
+            "1": "Kerala",
+            "2": "Madhya Pradesh",
+            "3": "Uttarakhand",
+            "4": "Sikkim"
         },
         "answer": "3"
     },
     {
         "id": 39,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
+        "question": "Which of the following is the driest region in India?",
         "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
+            "1": "Rajasthan",
+            "2": "Gujarat",
+            "3": "Ladakh",
+            "4": "Kutch"
         },
-        "answer": "4"
+        "answer": "3"
     },
     {
         "id": 40,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
+        "question": "Which of the following is the largest river island in India?",
         "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 41,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 42,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 43,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 44,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 45,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 46,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 47,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 48,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 49,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 50,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 51,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 52,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 53,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 54,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 55,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 56,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 57,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 58,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 59,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 60,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 61,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 62,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 63,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 64,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 65,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 66,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 67,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 68,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 69,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 70,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 71,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 72,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 73,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 74,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 75,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 76,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 77,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 78,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 79,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 80,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 81,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 82,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 83,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 84,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 85,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 86,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 87,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 88,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 89,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 90,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 91,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 92,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 93,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 94,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 95,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 96,
-        "question": "Which one of the following is not a plantation crop?",
-        "options": {
-            "1": "Coffee",
-            "2": "Sugarcane",
-            "3": "Banana",
-            "4": "Rubber",
-            "5": "Tea"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 97,
-        "question": "What does the term 'population density' refer to?",
-        "options": {
-            "1": "Number of people per unit area",
-            "2": "Number of houses in an area",
-            "3": "Total population in a country",
-            "4": "Population growth rate",
-            "5": "Urban population"
-        },
-        "answer": "1"
-    },
-    {
-        "id": 98,
-        "question": "Which one of the following is a tertiary activity?",
-        "options": {
-            "1": "Fishing",
-            "2": "Mining",
-            "3": "Retail trade",
-            "4": "Manufacturing",
-            "5": "Farming"
-        },
-        "answer": "3"
-    },
-    {
-        "id": 99,
-        "question": "Which of these rivers has the highest potential for hydroelectricity in India?",
-        "options": {
-            "1": "Ganga",
-            "2": "Yamuna",
-            "3": "Mahanadi",
-            "4": "Brahmaputra",
-            "5": "Krishna"
-        },
-        "answer": "4"
-    },
-    {
-        "id": 100,
-        "question": "Which state has the highest literacy rate in India as per recent data?",
-        "options": {
-            "1": "Kerala",
-            "2": "Goa",
-            "3": "Mizoram",
-            "4": "Delhi",
-            "5": "Himachal Pradesh"
+            "1": "Majuli",
+            "2": "Sundarbans",
+            "3": "Dibrugarh",
+            "4": "Kochi"
         },
         "answer": "1"
     }

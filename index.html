@@ -23,7 +23,7 @@
         </div>
 
 
-        <div class="second">
+        <div class="second" style="display: non;">
             <nav>
 
                 <div class=" user_info" style="display: none;">
@@ -230,6 +230,7 @@
                     <div class=" ques">
 
 
+
                     </div>
                     <div class="buttons">
                         <button onclick="save()"
@@ -300,108 +301,128 @@
 
                 </div>
             </div>
-            <div class="scor" style="display: none;"">
-                <div class=" card">
 
-                <span style="display: flex; color: rgb(20, 0, 0); flex-direction: row;;">You answered <h2 id="s"
-                        style="margin-top: -5px; margin-left: 2px; margin-right: 2px;"> 0 </h2> Questions
-                    Correctly</span> <br>
-                <button onclick="location.reload()">Retry</button>
+            <div class="note">
+                <div
+                    style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
+                    <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
+                        purposes</strong>. It is not intended to spread any false information or mislead users in any
+                    way.
+                    The
+                    interface and design of this site are inspired by the official NTA website to provide a realistic
+                    user
+                    experience for development and testing.
 
+                    <br><br>
+
+                    This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
+                    (like
+                    your answers or progress) are stored locally in your browser only. It's not like I can't make a
+                    backend...
+                    I'm just lazy 🥲.
+
+                    <br><br>
+
+                    For accurate and official information, please visit the official NTA quiz portal here:
+                    <a href="https://www.nta.ac.in/quiz" target="_blank"
+                        rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
+
+                    <br><br>
+
+                    We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
+                    only.
+
+                    <br><br>
+
+                    Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
+                </div>
             </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
         </div>
+        <div class="fifth" style="display: none;">
+            <div class="sc">
+                <span> Question answered <br>
+                    <spa id="q_ans" class="score">0
+                </span> </span>
+                <span> Correct answer <br> <span id="s" class="score">0</span> </span>
+                <span> incorrect answer <br> <span id="wrong" class="score">0</span></span>
+                <button id="retry" onclick="location.reload()"></button>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="note">
-            <div
-                style="padding: 1em; background-color: #f8f9fa; border-left: 4px solid #dc3545; margin-bottom: 1em; font-family: sans-serif;">
-                <strong>Disclaimer:</strong> This website is created solely for <strong>testing and educational
-                    purposes</strong>. It is not intended to spread any false information or mislead users in any
-                way.
-                The
-                interface and design of this site are inspired by the official NTA website to provide a realistic
-                user
-                experience for development and testing.
-
-                <br><br>
-
-                This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
-                (like
-                your answers or progress) are stored locally in your browser only. It's not like I can't make a
-                backend...
-                I'm just lazy 🥲.
-
-                <br><br>
-
-                For accurate and official information, please visit the official NTA quiz portal here:
-                <a href="https://www.nta.ac.in/quiz" target="_blank"
-                    rel="noopener noreferrer">https://www.nta.ac.in/quiz</a>.
-
-                <br><br>
-
-                We do not claim any affiliation with NTA. All content and layout used are for mock/testing purposes
-                only.
-
-                <br><br>
-
-                Wanna see more questions, more subjects, or even a leaderboard? DM me 📩
             </div>
         </div>
 
 
-
-
-    </div>
-
-
-    <footer>
-        <p style="color: white; font-size: 11px;">last update 20/04/25 12:30Am goodnight 🫠</p>
-    </footer>
+        <footer>
+            <p style="color: white; font-size: 11px;">last update 20/04/25 12:30Am goodnight 🫠</p>
+        </footer>
 
     </div>
 
     <style>
+        .down {
+            border: none !important;
+            background-image: url(src/down.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .up {
+            border: none !important;
+            background-image: url(src/up.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .fifth {
+
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #retry {
+            border-radius: 50px;
+            background-color: transparent;
+            background-image: url(src/reload.png);
+            background-position: center;
+            background-size: contain;
+            border: none;
+            position: absolute;
+            margin-top: 70px;
+            cursor: pointer;
+            left: 50%;
+            right: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+        .fifth span {
+            text-align: center;
+            margin-left: 10px;
+        }
+
+        .score {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .sc {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+
+
+
         .scor {
             top: 0;
             position: absolute;
@@ -1013,6 +1034,16 @@
                 margin-left: -400px;
             }
 
+            .fifth span {
+                margin-left: 5px;
+                font-size: 14px;
+
+            }
+
+            .score {
+                font-size: 14px;
+            }
+
 
         }
 
@@ -1077,12 +1108,15 @@
 
             }
             else {
+                window.scrollTo({ "behavior": "smooth", "top": 0 })
                 document.getElementsByClassName('second')[0].style.display = 'none'
                 document.getElementsByClassName('third')[0].style.display = 'block'
+               
 
             }
         }
         function proc() {
+            window.scrollTo({ "behavior": "smooth", "top": 0 })
             document.getElementsByClassName('third')[0].style.display = 'none'
             document.getElementsByClassName('forth')[0].style.display = 'block'
             start_timer()
@@ -1090,38 +1124,10 @@
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         let now = 0
         let m = 60
         let last = 10
-let click=0
+        let click = 0
         function start_timer() {
             now = Date.now()
 
@@ -1140,28 +1146,15 @@ let click=0
 
 
                     if (m < 0) {
-click++
+                        click++
+                        if (click = 1) {
+                            submit()
+                        }
 
-if(click=1){
 
 
-
-                        submit()}
 
                     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 }
                 document.getElementById('min').innerText = last
@@ -1173,16 +1166,6 @@ if(click=1){
 
 
         }
-
-
-
-        //   start_timer()
-
-
-
-
-
-
 
 
 
@@ -1228,6 +1211,7 @@ if(click=1){
 
 
                     ques.innerHTML += `
+                    <div class="down" style="border: 1px solid red; width:30px; position:relative; height:40px; margin-top:-40px; top:40px; border-radius:30px; margin-left:auto;"></div>
                     <p id=" qn" style=" margin-top: 10px; margin-bottom:20px ; margin-left: 0px; font-weight: bold;">Question ${parseInt(solving) + 1} </p>
                 <p>${data[parseInt(solving) + n].question}</p>
                         <ol type="1" style="margin-left: 30px; margin-bottom:20px;">
@@ -1246,6 +1230,7 @@ if(click=1){
                             <label style="color: black" for="forth"><input id="opt4" type="radio" name="chose"> 4)
                             </label>
                         </div>
+                        <div class="up" style="border: 1px solid red; width:30px; position:relative; height:40px; margin-top:-40px; top:40px; border-radius:30px; margin-left:auto;"></div>
                 `
 
                     let question = document.getElementsByClassName('num')[0]
@@ -1377,6 +1362,9 @@ if(click=1){
         }
         let ao
         let score = 0
+        let answered = 0
+        let incorrect = 0
+        let done = false
         function submit() {
             fetch('src/class12_geography_mock_test_numbered.json')
                 .then(d => d.json())
@@ -1387,20 +1375,33 @@ if(click=1){
 
                     // console.log(ao)
                     while (ao.length != i) {
+                        answered = ao.length
 
                         if (ao[i].split('')[3] === data[i].answer) {
                             console.log('yes')
-                            score++
+                            if (!done) {
+                                score++
+                            }
+
 
                         }
                         else {
-                            console.log('na answer is', ao[i].split('')[3], data[i].answer)
+                            if (!done) {
+                                incorrect++
+                            }
+
+
+                            //      console.log('na answer is', ao[i].split('')[3], data[i].answer)
                         }
                         i++
                         //  // console.log(data[i].answer)
                     }
-                    document.getElementsByClassName("scor")[0].style.display = "flex"
+                    document.getElementsByClassName("forth")[0].style.display = "none"
+                    document.getElementsByClassName("fifth")[0].style.display = "flex"
                     document.getElementById('s').innerText = score
+                    document.getElementById('q_ans').innerText = answered
+                    document.getElementById('wrong').innerText = incorrect
+                    done = true
                     //    console.log(score)
 
 

@@ -1121,6 +1121,7 @@
         let now = 0
         let m = 60
         let last = 10
+let click=0
         function start_timer() {
             now = Date.now()
 
@@ -1139,10 +1140,13 @@
 
 
                     if (m < 0) {
+click++
+
+if(click=1){
 
 
 
-                        submit()
+                        submit()}
 
                     }
 

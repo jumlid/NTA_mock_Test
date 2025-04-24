@@ -23,7 +23,7 @@
         </div>
 
 
-        <div class="second" style="display: non;">
+        <div class="second" style="display: nne;">
             <nav>
 
                 <div class=" user_info" style="display: none;">
@@ -316,7 +316,7 @@
                 </span> </span>
                 <span> Correct answer <br> <span id="s" class="score">0</span> </span>
                 <span> incorrect answer <br> <span id="wrong" class="score">0</span></span>
-                <button id="retry" onclick="location.reload()"></button>
+                <button id="retry" onclick="restart()"></button>
 
 
 
@@ -1130,9 +1130,24 @@
 
 
         }
+        function restart() {
+            //display(0)
+            sessionStorage.setItem('restart', true)
+            location.reload()
 
 
+        }
 
+        window.onload = () => {
+            if (sessionStorage.getItem('restart')) {
+                //  console.log('e')
+                start_timer()
+
+                document.getElementsByClassName('fifth')[0].style.display = 'none'
+                document.getElementsByClassName('second')[0].style.display = 'none'
+                document.getElementsByClassName('forth')[0].style.display = 'block'
+            }
+        }
 
         let solving = '0'
 
@@ -1145,6 +1160,7 @@
         let a;
         q_bth.addEventListener('click', (e) => {
             solving = e.target.id
+            console.log('click ' + solving)
 
             document.getElementById(parseInt(solving)).style.backgroundImage = 'url(src/Logo2.png)'
             document.getElementById(parseInt(solving)).style.color = 'white'
@@ -1153,11 +1169,6 @@
             // console.log(solving, 's')
             display(0)
             // console.log('w', e.target.id)
-
-
-
-
-
         }
 
         )
@@ -1170,7 +1181,7 @@
 
 
                     ques.innerHTML = ""
-                    // console.log(solving, n)
+                    console.log("Display", solving)
 
 
 
@@ -1273,15 +1284,19 @@
 
         }
         function next() {
-            solving++
-            if (!flag) {
+            if (solving != 39) {
+                solving++
+            }
+            console.log(solving)
+
+            if (!flag) { // Update i have no idea why i use flag ._. but it's working hehe
                 document.getElementById(solving).style.backgroundImage = 'url(src/Logo2.png)'
                 document.getElementById(solving).style.color = 'white'
             }
 
-            // console.log(solving)
+            console.log(solving)
 
-            display(1)
+            display(0)
             if (answer[solving]) {
                 // console.log('ok')
 
@@ -1296,7 +1311,7 @@
             }
 
 
-            display(1)
+            display(0)
         }
 
 

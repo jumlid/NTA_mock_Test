@@ -11,6 +11,12 @@
 
 <body>
     <div class="container">
+        <div class="notice" style="display: none;"> <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->>
+            <div class="note"></div>
+
+
+
+        </div>
         <div class="nav">
             <button id="home"> </button>
         </div>
@@ -23,7 +29,9 @@
         </div>
 
 
+
         <div class="second" style="display: nne;">
+
             <nav>
 
                 <div class=" user_info" style="display: none;">
@@ -50,6 +58,21 @@
 
             </nav>
             <div class="content">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="login_page">
                     <p>Login (Demo)</p>
                     <hr style="margin-top: 20px; margin-bottom: 30px;">
@@ -91,7 +114,7 @@
                                     screen will display the remaining time available for you to complete the
                                     examination. When the timer reaches zero, the examination will end by itself. You
                                     will not be required to end or submit your examination</li>
-                                <li>The Questions Palette displayed on the right side of screen will show the status of
+                                <li>The Questions pattern displayed on the right side of screen will show the status of
                                     each question using one of the following symbols
 
                                     <ol type="1" style="margin-left: 20px;">
@@ -325,7 +348,9 @@
 
 
         <footer>
-            <p style="color: white; font-size: 11px;">last update 20/04/25 12:30Am goodnight 🫠</p>
+
+            <div class="contact_i" onclick="window.location.href='https://www.instagram.com/boi.404/'">Follow me</div>
+
         </footer>
 
     </div>
@@ -337,6 +362,38 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+        }
+
+        .notice {
+            border: 1px solid red;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            z-index: 5;
+          
+         
+        }
+        .note{
+            border: 1px solid rgb(0, 0, 0);
+            z-index: 6;
+            width: 300px;
+            height: 400px;
+            background-color: #012b55;
+        }
+
+        .contact_i {
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+            width: fit-content;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            cursor: pointer;
         }
 
         .up {
@@ -1160,7 +1217,7 @@
         let a;
         q_bth.addEventListener('click', (e) => {
             solving = e.target.id
-            console.log('click ' + solving)
+            // console.log('click ' + solving)
 
             document.getElementById(parseInt(solving)).style.backgroundImage = 'url(src/Logo2.png)'
             document.getElementById(parseInt(solving)).style.color = 'white'
@@ -1181,7 +1238,7 @@
 
 
                     ques.innerHTML = ""
-                    console.log("Display", solving)
+                    //    console.log("Display", solving)
 
 
 
@@ -1241,7 +1298,7 @@
 
 
         function review() {
-            console.log(solving)
+            //    console.log(solving)
 
             document.getElementById(parseInt(solving) + 1).style.backgroundImage = 'url(src/Logo4.png)'
             document.getElementById(parseInt(solving) + 1).style.color = 'white'
@@ -1250,7 +1307,7 @@
 
         }
         function saved_review() {
-            console.log(solving)
+            // console.log(solving)
             a = Array.from(checkbox).some(c => c.checked)
             if (a) {
                 document.getElementById(parseInt(solving) + 1).style.backgroundImage = 'url(src/Logo5.png)'
@@ -1287,14 +1344,14 @@
             if (solving != 39) {
                 solving++
             }
-            console.log(solving)
+            //   console.log(solving)
 
             if (!flag) { // Update i have no idea why i use flag ._. but it's working hehe
                 document.getElementById(solving).style.backgroundImage = 'url(src/Logo2.png)'
                 document.getElementById(solving).style.color = 'white'
             }
 
-            console.log(solving)
+            //  console.log(solving)
 
             display(0)
             if (answer[solving]) {

@@ -5,354 +5,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gay Test</title>
+    <title>Dummy Test</title>
     <link rel="shortcut icon" href="src/images.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <div class="notice" style="display: none;">
-            <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->>
-            <div class="note"></div>
+        <div class="notice">
+            <div class="note">
+                <h1>DISCLIAMER</h1>
+                <p> This website is created solely for testing and educational purposes. It is not intended to spread
+                    any false information or mislead users in any way. The interface and design of this site are
+                    inspired by the official NTA website to provide a realistic user experience for development and
+                    testing.
 
 
+                    This site doesn't have any backend code — meaning it doesn't store any data on servers. All the data
+                    (like your answers or progress) are stored locally in your browser only. It's not like I can't make
+                    a backend... I'm just lazy 🥲. <br>
+                    For accurate and official information, please visit the official NTA quiz portal here:
+                    <a style="color: white;" href="https://www.nta.ac.in/quiz"> https://www.nta.ac.in/quiz.</a>
 
-        </div>
-        <div class="nav">
-            <button id="home"> </button>
-        </div>
-        <div class="links">
-            <img src="src/150g.png" alt="" height="60px" id="l1">
-            <img src="src/NTA_logo.png" alt="" id="l2">
-            <hr style="height: 95%; width: 2px; background-color: black;">
-            <img src="src/moe1.png" alt="" id="l3">
-            <img src="src/akam.png" alt="" height="60px" id="l4">
-        </div>
-
-
-
-        <div class="second" style="display: nne;">
-
-            <nav>
-
-                <div class=" user_info" style="display: none;">
-                    <div class="system_info">
-                        <div class="sys_img"></div>
-                        <p>System Name:</p>
-                        <p style="color: #f7931e;"> dasda <br>
-                        </p>
-                        <p style="color: #f7931e; margin-left: -150px; margin-top: 15px; font-size: 15px;"> <br>[Contact
-                            Invigilator if the
-                            Name and Photograph displayed on the screen is not yours]
-                        </p>
-
-                    </div>
-                    <div class="user">
-                        <div class="user_img"></div>
-                        <p>Candidate Name:</p>
-                        <p style="color: #f7931e;"> [Your Name]
-                        </p>
-                        <p style="margin-left: -217px; margin-top: 15px;"> <br>Subject Name:</p>
-                        <p style="color: #f7931e; margin-top: 15px;"><br>[Practice paper]</p>
-                    </div>
-                </div>
-
-            </nav>
-            <div class="content">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div class="login_page">
-                    <p>Login (Demo)</p>
-                    <hr style="margin-top: 20px; margin-bottom: 30px;">
-                    <label for="">Username</label>
-                    <input id="name" type="text" autocomplete="off" style="padding-left: 10px;">
-                    <label for="" style=" position: relative; top: 4px;">Password</label>
-                    <input id="pass" type="password" autocomplete="off" style="padding-left: 10px;">
-                    <button onclick="login()">Login</button>
-                    <p style="color: #f88807;">click Login to procced</p>
-                    <p style=" color: #f88807; font-size: 13px;">Additional information: This is just a
-                        practice site so you can enter any username/password here</p>
-                    <p></p>
-                </div>
-
+                    <B>Got any query related the site ? click the insta icon given below(fotter) visit <a
+                            style="color: white; text-decoration: none;"
+                            href="https://github.com/jumlid/NTA_mock_Test">https://github.com/jumlid/NTA </a>For source
+                        code</B>
+                </p>
+                <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->
 
 
             </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="nav">
+        <button id="home"> </button>
+    </div>
+    <div class="links">
+        <img src="src/150g.png" alt="" height="60px" id="l1">
+        <img src="src/NTA_logo.png" alt="" id="l2">
+        <hr style="height: 95%; width: 2px; background-color: black;">
+        <img src="src/moe1.png" alt="" id="l3">
+        <img src="src/akam.png" alt="" height="60px" id="l4">
+    </div>
+
+
+
+    <div class="second" style="display: nne;">
+
+        <nav>
+
+            <div class=" user_info" style="display: none;">
+                <div class="system_info">
+                    <div class="sys_img"></div>
+                    <p>System Name:</p>
+                    <p style="color: #f7931e;"> dasda <br>
+                    </p>
+                    <p style="color: #f7931e; margin-left: -150px; margin-top: 15px; font-size: 15px;"> <br>[Contact
+                        Invigilator if the
+                        Name and Photograph displayed on the screen is not yours]
+                    </p>
+
+                </div>
+                <div class="user">
+                    <div class="user_img"></div>
+                    <p>Candidate Name:</p>
+                    <p style="color: #f7931e;"> [Your Name]
+                    </p>
+                    <p style="margin-left: -217px; margin-top: 15px;"> <br>Subject Name:</p>
+                    <p style="color: #f7931e; margin-top: 15px;"><br>[Practice paper]</p>
+                </div>
+            </div>
+
+        </nav>
+        <div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="login_page">
+                <p>Login (Demo)</p>
+                <hr style="margin-top: 20px; margin-bottom: 30px;">
+                <label for="">Username</label>
+                <input id="name" type="text" autocomplete="off" style="padding-left: 10px;">
+                <label for="" style=" position: relative; top: 4px;">Password</label>
+                <input id="pass" type="password" autocomplete="off" style="padding-left: 10px;">
+                <button onclick="login()">Login</button>
+                <p style="color: #f88807;">click Login to procced</p>
+                <p style=" color: #f88807; font-size: 13px;"></p>
+                <p></p>
+            </div>
+
 
 
         </div>
 
-        <div class="third" style="display: none;">
-            <div class="information">
-                <div class="bruh">
 
-                    <p id="general" style="margin-left: 380px;">General Instructions</p>
-                </div>
-                <div class="text">
-                    <p style="font-size: 18px; margin-top: 10px; font-weight: bold;" <b>Please read the instructions
-                        carefully</b> </p>
-                    <div class="main">
-                        <h4 style="font-weight: bold; color: black; font-size: 17px; margin-bottom: 10px;"><u>General
-                                Instructions:</u></h4>
-                        <ul>
-                            <ol type="1">
-                                <li>Total duration of Practice Test is 10
-                                    min.</li>
-                                <li>The clock will be set at the server. The countdown timer in the top right corner of
-                                    screen will display the remaining time available for you to complete the
-                                    examination. When the timer reaches zero, the examination will end by itself. You
-                                    will not be required to end or submit your examination</li>
-                                <li>The Questions pattern displayed on the right side of screen will show the status of
-                                    each question using one of the following symbols
+    </div>
 
-                                    <ol type="1" style="margin-left: 20px;">
-                                        <li><img src="src/Logo1.png" class="icon"></img> You have not visited the
-                                            question yet.</li>
-                                        <li><img src="src/Logo2.png" class="icon"></img> You have not answered the
-                                            question.</li>
-                                        <li><img src="src/Logo3.png" class="icon"></img> You have answered the question.
-                                        </li>
-                                        <li><img src="src/Logo4.png" class="icon"></img> You have NOT answered the
-                                            question, but have marked the question for review.</li>
-                                        <li><img src="src/Logo5.png" class="icon"></img> You have not visited the
-                                            question yet.</li>
+    <div class="third" style="display: none;">
+        <div class="information">
+            <div class="bruh">
 
-                                    </ol>
+                <p id="general" style="margin-left: 380px;">General Instructions</p>
+            </div>
+            <div class="text">
+                <p style="font-size: 18px; margin-top: 10px; font-weight: bold;" <b>Please read the instructions
+                    carefully</b> </p>
+                <div class="main">
+                    <h4 style="font-weight: bold; color: black; font-size: 17px; margin-bottom: 10px;"><u>General
+                            Instructions:</u></h4>
+                    <ul>
+                        <ol type="1">
+                            <li>Total duration of Practice Test is 10
+                                min.</li>
+                            <li>The clock will be set at the server. The countdown timer in the top right corner of
+                                screen will display the remaining time available for you to complete the
+                                examination. When the timer reaches zero, the examination will end by itself. You
+                                will not be required to end or submit your examination</li>
+                            <li>The Questions pattern displayed on the right side of screen will show the status of
+                                each question using one of the following symbols
 
-                                </li>
-                                <li>You can click on the ">" arrow which apperes to the left of question palette to
-                                    collapse the question palette thereby maximizing the question window. To view the
-                                    question palette again, you can click on "<" which appears on the right side of
-                                        question window.</li>
-                                <li>You can click on your "Profile" image on top right corner of your screen to change
-                                    the language during the exam for entire question paper. On clicking of Profile image
-                                    you will get a drop-down to change the question content to the desired language.
-                                </li>
-                                <li>You can click <img src="src/up.png" height="20px"
-                                        style="position: relative; top: 5px;" alt="">
-                                    to navigate to the bottom and <img src="src/down.png" height="20px"
-                                        style="position:  relative; top: 5px;" alt=""> to navigate to top of the
-                                    question are, without scrolling.</li>
-                                <h4
-                                    style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
-                                    <u>Navigating to a Question:</u>
-                                </h4>
-                                <li>To answer a question, do the following:
-                                    <ol type="a">
-                                        <li style="margin-left: 40px;">Click on the question number in the Question
-                                            Palette at the right of your screen to go to that numbered question
-                                            directly. Note that using this option does NOT save your answer to the
-                                            current question.</li>
-                                        <li style="margin-left: 40px;">Click on <b>Save & Next</b> to save your answer
-                                            for the current question and then go to the next question.
-                                        </li>
-                                        <li style="margin-left: 40px;">Click on <b>Mark for Review & Next</b> to save
-                                            your answer for the current question, mark it for review, and then go to the
-                                            next question.</li>
-
-
-                                    </ol>
-                                </li>
-                                <h4
-                                    style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
-                                    <u>Answering a Question:</u>
-                                </h4>
-                                <li>Procedure for answering a multiple choice type question:</li>
-                                <ol type="a" style="margin-left: 50px;">
-                                    <li>To select you answer, click on the button of one of
-                                        the options.</li>
-                                    <li>To deselect your chosen answer, click on the button of the chosen option again
-                                        or click on the <b>Clear Response </b>button </li>
-                                    <li>To change your chosen answer, click on the button of another option
+                                <ol type="1" style="margin-left: 20px;">
+                                    <li><img src="src/Logo1.png" class="icon"></img> You have not visited the
+                                        question yet.</li>
+                                    <li><img src="src/Logo2.png" class="icon"></img> You have not answered the
+                                        question.</li>
+                                    <li><img src="src/Logo3.png" class="icon"></img> You have answered the question.
                                     </li>
-                                    <li>To save your answer, you MUST click on the Save & Next button.</li>
-                                    <li>To mark the question for review, click on the Mark for Review & Next button.
-                                    </li>
+                                    <li><img src="src/Logo4.png" class="icon"></img> You have NOT answered the
+                                        question, but have marked the question for review.</li>
+                                    <li><img src="src/Logo5.png" class="icon"></img> You have not visited the
+                                        question yet.</li>
+
                                 </ol>
-                                <li>To change your answer to a question that has already been answered, first select
-                                    that question for answering and then follow the procedure for answering that type of
-                                    question</li>
-                                <h4
-                                    style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
-                                    <u>Navigating through sections:</u>
-                                </h4>
-                                <li>Sections in this question paper are displayed on the top bar of the screen.
-                                    Questions in a section can be viewed by click on the section name. The section you
-                                    are currently viewing is highlighted.</li>
-                                <li>After click the Save & Next button on the last question for a section, you will
-                                    automatically be taken to the first question of the next section.</li>
-                                <li>You can shuffle between sections and questions anything during the examination as
-                                    per your convenience only during the time stipulated.</li>
-                                <li>Candidate can view the corresponding section summery as part of the legend that
-                                    appears in every section above the question palette.
+
+                            </li>
+                            <li>You can click on the ">" arrow which apperes to the left of question palette to
+                                collapse the question palette thereby maximizing the question window. To view the
+                                question palette again, you can click on "<" which appears on the right side of question
+                                    window.</li>
+                            <li>You can click on your "Profile" image on top right corner of your screen to change
+                                the language during the exam for entire question paper. On clicking of Profile image
+                                you will get a drop-down to change the question content to the desired language.
+                            </li>
+                            <li>You can click <img src="src/up.png" height="20px" style="position: relative; top: 5px;"
+                                    alt="">
+                                to navigate to the bottom and <img src="src/down.png" height="20px"
+                                    style="position:  relative; top: 5px;" alt=""> to navigate to top of the
+                                question are, without scrolling.</li>
+                            <h4
+                                style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
+                                <u>Navigating to a Question:</u>
+                            </h4>
+                            <li>To answer a question, do the following:
+                                <ol type="a">
+                                    <li style="margin-left: 40px;">Click on the question number in the Question
+                                        Palette at the right of your screen to go to that numbered question
+                                        directly. Note that using this option does NOT save your answer to the
+                                        current question.</li>
+                                    <li style="margin-left: 40px;">Click on <b>Save & Next</b> to save your answer
+                                        for the current question and then go to the next question.
+                                    </li>
+                                    <li style="margin-left: 40px;">Click on <b>Mark for Review & Next</b> to save
+                                        your answer for the current question, mark it for review, and then go to the
+                                        next question.</li>
+
+
+                                </ol>
+                            </li>
+                            <h4
+                                style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
+                                <u>Answering a Question:</u>
+                            </h4>
+                            <li>Procedure for answering a multiple choice type question:</li>
+                            <ol type="a" style="margin-left: 50px;">
+                                <li>To select you answer, click on the button of one of
+                                    the options.</li>
+                                <li>To deselect your chosen answer, click on the button of the chosen option again
+                                    or click on the <b>Clear Response </b>button </li>
+                                <li>To change your chosen answer, click on the button of another option
+                                </li>
+                                <li>To save your answer, you MUST click on the Save & Next button.</li>
+                                <li>To mark the question for review, click on the Mark for Review & Next button.
                                 </li>
                             </ol>
-                        </ul>
-                        <hr style="margin-top: 25px;">
-                        <div class="nore" style="margin-top:10px ; margin-bottom:10px;">
-                            <p style="color:#a94442 ;">Please note all questions will appear in your default language.
-                                This language can be changed for a particular question later on.</p>
-                        </div>
-
-                        <hr style="margin-bottom: 25px;">
-                        <label for=""> <input type="checkbox" name="" id="" style="cursor: pointer;"> have read and
-                            understood the instructions.
-                            All computer hardware allotted to me are in proper working condition. I declare that I am
-                            not in possession of / not wearing / not carrying any prohibited gadget like mobile phone,
-                            bluetooth devices etc. /any prohibited material with me into the Examination Hall.I agree
-                            that in case of not adhering to the instructions, I shall be liable to be debarred from this
-                            Test and/or to disciplinary action, which may include ban from future Tests /
-                            Examinations</label>
-                        <hr style="margin-top: 25px; margin-bottom: 20px;">
-
-                        <button id="procced" onclick="proc()"
-                            style=" cursor: pointer; width: 400px; height: 30px; font-weight: bold;color: white; background-color:#5cb85c;  border: none; display: block; position: relative; margin-left: auto; margin-right: auto;">PROCEED</button>
+                            <li>To change your answer to a question that has already been answered, first select
+                                that question for answering and then follow the procedure for answering that type of
+                                question</li>
+                            <h4
+                                style="font-weight: bold; color: black; font-size: 17px; margin-top: 20px; margin-bottom: 10px;">
+                                <u>Navigating through sections:</u>
+                            </h4>
+                            <li>Sections in this question paper are displayed on the top bar of the screen.
+                                Questions in a section can be viewed by click on the section name. The section you
+                                are currently viewing is highlighted.</li>
+                            <li>After click the Save & Next button on the last question for a section, you will
+                                automatically be taken to the first question of the next section.</li>
+                            <li>You can shuffle between sections and questions anything during the examination as
+                                per your convenience only during the time stipulated.</li>
+                            <li>Candidate can view the corresponding section summery as part of the legend that
+                                appears in every section above the question palette.
+                            </li>
+                        </ol>
+                    </ul>
+                    <hr style="margin-top: 25px;">
+                    <div class="nore" style="margin-top:10px ; margin-bottom:10px;">
+                        <p style="color:#a94442 ;">Please note all questions will appear in your default language.
+                            This language can be changed for a particular question later on.</p>
                     </div>
 
+                    <hr style="margin-bottom: 25px;">
+                    <label for=""> <input type="checkbox" name="" id="" style="cursor: pointer;"> have read and
+                        understood the instructions.
+                        All computer hardware allotted to me are in proper working condition. I declare that I am
+                        not in possession of / not wearing / not carrying any prohibited gadget like mobile phone,
+                        bluetooth devices etc. /any prohibited material with me into the Examination Hall.I agree
+                        that in case of not adhering to the instructions, I shall be liable to be debarred from this
+                        Test and/or to disciplinary action, which may include ban from future Tests /
+                        Examinations</label>
+                    <hr style="margin-top: 25px; margin-bottom: 20px;">
 
+                    <button id="procced" onclick="proc()"
+                        style=" cursor: pointer; width: 400px; height: 30px; font-weight: bold;color: white; background-color:#5cb85c;  border: none; display: block; position: relative; margin-left: auto; margin-right: auto;">PROCEED</button>
                 </div>
+
 
             </div>
+
         </div>
-        <div class="forth" style="display: none;">
-            <nav>
-                <div class="user_info">
-                    <div class="user">
-                        <div class="user_img"></div>
-                        <div class="user_text">
-                            <span>Candidate Name:</span>
-                            <span id="n"> [Your Name]
-                            </span>
-                            <span> <br>Exam Name :</span>
-                            <span>[Practice paper] </span>
-                            <span> <br>Subject Name :</span>
-                            <span>Geography</span>
-                            <span> <br>Remaining Time :</span>
-                            <span> <span id="min">0</span>:<span id="sec">0</span> </span>
-                        </div>
-
+    </div>
+    <div class="forth" style="display: none;">
+        <nav>
+            <div class="user_info">
+                <div class="user">
+                    <div class="user_img"></div>
+                    <div class="user_text">
+                        <span>Candidate Name:</span>
+                        <span id="n"> [Your Name]
+                        </span>
+                        <span> <br>Exam Name :</span>
+                        <span>[Practice paper] </span>
+                        <span> <br>Subject Name :</span>
+                        <span>Geography</span>
+                        <span> <br>Remaining Time :</span>
+                        <span> <span id="min">0</span>:<span id="sec">0</span> </span>
                     </div>
+
                 </div>
-            </nav>
-            <div class="test">
-                <div class="questions">
+            </div>
+        </nav>
+        <div class="test">
+            <div class="questions">
 
 
-                    <div class=" ques">
+                <div class=" ques">
 
 
 
-                    </div>
-                    <div class="buttons">
-                        <button onclick="save()"
-                            style="cursor: pointer; background-color: #4cae4c; border: none; color: white; font-size: 13px;">SAVE
-                            &
-                            NEXT</button>
-                        <button onclick="clean()" style="background-color: transparent;  color: #555555; border: 1px solid #555555
+                </div>
+                <div class="buttons">
+                    <button onclick="save()"
+                        style="cursor: pointer; background-color: #4cae4c; border: none; color: white; font-size: 13px;">SAVE
+                        &
+                        NEXT</button>
+                    <button onclick="clean()" style="background-color: transparent;  color: #555555; border: 1px solid #555555
 
                         ; font-size: 13px; cursor: pointer;"> CLEAR</button>
-                        <button onclick="saved_review()" style="background-color: #f0ad4e;  color: white; border:none
+                    <button onclick="saved_review()" style="background-color: #f0ad4e;  color: white; border:none
 
                         ; cursor: pointer; font-size: 13px;"> SAVE & MARK FOR REVIEW</button>
-                        <button onclick="review()"
-                            style="background-color: #337ab7; border: none; color: white; cursor: pointer;"> MARK
-                            FOR REVIEW & NEXT
-                        </button>
-                    </div>
-                    <div class="WA">
-                        <button onclick="back()">
-                            << BACK</button>
-                                <button onclick="next()">NEXT >></button>
-                                <button onclick="submit()">SUBMIT</button>
-                    </div>
+                    <button onclick="review()"
+                        style="background-color: #337ab7; border: none; color: white; cursor: pointer;"> MARK
+                        FOR REVIEW & NEXT
+                    </button>
                 </div>
-                <div class="answer"></div>
-                <div class="info">
-                    <table>
-                        <thead>
+                <div class="WA">
+                    <button onclick="back()">
+                        << BACK</button>
+                            <button onclick="next()">NEXT >></button>
+                            <button onclick="submit()">SUBMIT</button>
+                </div>
+            </div>
+            <div class="answer"></div>
+            <div class="info">
+                <table>
+                    <thead>
+                        <td>
+                            <div class=" ico" style="background-image: url(src/Logo1.png);">
+                                <p id="not_visited"></p>
+                            </div>
+                        </td>
+                        <td>Not Visited </td>
+                        <td>
+                            <div class="ico" style="background-image: url(src/Logo2.png);">
+                                <p id="not_answered"></p>
+                            </div>
+                        </td>
+                        <td>Not Answered</td>
+                    </thead>
+                    <tbody>
+                        <tr>
                             <td>
-                                <div class=" ico" style="background-image: url(src/Logo1.png);"> 0
+                                <div class="ico" style="background-image: url(src/Logo3.png);">
+                                    <p id="answer"></p>
                                 </div>
                             </td>
-                            <td>Not Visited </td>
+                            <td>Answered </td>
                             <td>
-                                <div class="ico" style="background-image: url(src/Logo2.png);"> 0</div>
+                                <div class="ico" style="background-image: url(src/Logo4.png);">
+                                    <p id="marked_rev"></p>
+                                </div>
                             </td>
-                            <td>Not Answered</td>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="ico" style="background-image: url(src/Logo3.png);"> 0</div>
-                                </td>
-                                <td>Answered </td>
-                                <td>
-                                    <div class="ico" style="background-image: url(src/Logo4.png);"> 0</div>
-                                </td>
-                                <td>Marked for Review
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="ico" style="background-image: url(src/Logo5.png);"> 0</div>
-                                </td>
-                                <td style="width: 100%;">Answered & Marked for Review (will be considered for
-                                    evaluation)
-                                </td>
-                            </tr>
+                            <td>Marked for Review
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ico" style="background-image: url(src/Logo5.png);">
+                                    <p id="ans_rev"></p>
+                                </div>
+                            </td>
+                            <td style="width: 100%;">Answered & Marked for Review (will be considered for
+                                evaluation)
+                            </td>
+                        </tr>
 
 
-                        </tbody>
-                    </table>
+                    </tbody>
+                </table>
 
 
-                </div>
-                <div class="num">
-
-
-                </div>
-
+            </div>
+            <div class="num">
 
 
             </div>
 
 
 
-
-        </div>
-        <div class="fifth" style="display: none;">
-            <div class="sc">
-                <span> Question answered <br>
-                    <spa id="q_ans" class="score">0
-                </span> </span>
-                <span> Correct answer <br> <span id="s" class="score">0</span> </span>
-                <span> incorrect answer <br> <span id="wrong" class="score">0</span></span>
-                <button id="retry" onclick="restart()"></button>
-
-
-
-            </div>
         </div>
 
 
-        <footer>
 
-            <div class="contact_i" onclick="window.location.href='https://www.instagram.com/boi.404/'">Follow me</div>
 
-        </footer>
+    </div>
+    <div class="fifth" style="display: none;">
+        <div class="sc">
+            <span> Question answered <br>
+                <spa id="q_ans" class="score">0
+            </span> </span>
+            <span> Correct answer <br> <span id="s" class="score">0</span> </span>
+            <span> incorrect answer <br> <span id="wrong" class="score">0</span></span>
+            <button id="retry" onclick="restart()"></button>
+
+
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="contact_i" onclick="window.location.href='https://www.instagram.com/boi.404/'">Follow me</div>
+
+    </footer>
 
     </div>
 
@@ -366,22 +402,34 @@
         }
 
         .notice {
-            border: 1px solid red;
+
             position: absolute;
             width: 100vw;
             height: 100vh;
-            z-index: 5;
-
+            backdrop-filter: blur(4px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.151);
+            backdrop-filter: blur(2px);
+            z-index: 20;
 
         }
 
         .note {
-            border: 1px solid rgb(0, 0, 0);
-            z-index: 6;
-            width: 300px;
-            height: 400px;
+
+            border-radius: 15px;
+            
+            text-align: center;
             background-color: #012b55;
+            color: white;
+            width: 400px;
+            padding: 5px;
+            height: fit-content;
+
         }
+
+
 
         .contact_i {
             font-weight: bold;
@@ -475,7 +523,7 @@
         }
 
         .result {
-            border: 1px solid red;
+
             width: 100%;
             height: 100%;
         }
@@ -498,15 +546,7 @@
             text-align: center;
         }
 
-        .note {
 
-            margin-left: auto;
-            margin-right: auto;
-            width: 400px;
-            font-size: 15px;
-            height: 400px;
-            display: none;
-        }
 
         .user_text {
 
@@ -525,7 +565,7 @@
         }
 
         body {
-            font-family: sans-serif;
+            font-family: "Comic Relief", system-ui;
         }
 
         .container {
@@ -696,7 +736,8 @@
             justify-content: center;
             align-items: center;
 
-            margin-top: 5px;
+            position: relative;
+            top: 0%;
             height: 30px;
             background-color: #012b55;
         }
@@ -1074,6 +1115,11 @@
         }
 
         @media (width<=437px) {
+            .note {
+                width: 300px;
+                font-size: 15px;
+            }
+
             .user {
                 padding-left: 0%;
 
@@ -1121,10 +1167,37 @@
 
 
         }
+
+        @media (width <=400px) {
+            .login_page {
+                height: 240px;
+                padding-top: 8px;
+            }
+
+            .login_page input {
+                margin-top: 5px;
+            }
+
+            .login_page p {
+                font-size: 13px;
+            }
+
+            .login_page button {
+                height: 30px;
+            }
+
+
+        }
     </style>
     <script>
         //This ain’t code. This is arcane sorcery disguised as JavaScript.
         let name;
+        let not_visited = 40
+        let not_answered = 40
+        let answeer = 0
+        let MarkedforReview = 0
+        let Answerd_for_ = 0
+
         function login() {
             name = document.getElementById('name').value
             //  alert(name)
@@ -1138,8 +1211,9 @@
 
             else {
                 if (name.toLowerCase().includes("jumli")) {
-                    alert('._. Get the f out of here ')
-                    name = "Gay"
+                    alert("who tf are u?")
+                    alert("here's a gift from the dev check your user name :)")
+                    name = "I_LOVE_GAY'S"
 
                 }
                 window.scrollTo({ "behavior": "smooth", "top": 0 })
@@ -1149,6 +1223,9 @@
 
             }
         }
+        document.addEventListener('click', () => {
+            document.getElementsByClassName('notice')[0].style.display = 'none'
+        })
         function proc() {
             window.scrollTo({ "behavior": "smooth", "top": 0 })
             document.getElementsByClassName('third')[0].style.display = 'none'
@@ -1209,7 +1286,7 @@
             if (sessionStorage.getItem('restart')) {
                 //  console.log('e')
                 start_timer()
-
+                document.getElementsByClassName('notice')[0].style.display = 'none'
                 document.getElementsByClassName('fifth')[0].style.display = 'none'
                 document.getElementsByClassName('second')[0].style.display = 'none'
                 document.getElementsByClassName('forth')[0].style.display = 'block'
@@ -1245,8 +1322,15 @@
             fetch('src/class12_geography_mock_test_numbered.json')
                 .then(a => a.json())
                 .then(data => {
-
-
+                    /*
+                    document.getElementById("not_visited").innerText = not_answered
+                    document.getElementById("not_answered").innerText = not_visited
+                    document.getElementById("answer").innerText = answeer
+                    document.getElementById("marked_Rev").innerText = MarkedforReview
+                    document.getElementById().innerText = Answerd_for_
+                    not_visited = data.length
+                    console.log(not_visited)
+                    */
                     ques.innerHTML = ""
                     //    console.log("Display", solving)
 
@@ -1391,7 +1475,8 @@
 
             a = Array.from(checkbox).some(c => c.checked)
             if (a) {
-
+                answeer++
+                console.log(answeer)
 
                 document.getElementById(parseInt(solving + 1)).style.backgroundImage = 'url(src/Logo3.png)'
                 document.getElementById(parseInt(solving + 1)).style.color = 'white'

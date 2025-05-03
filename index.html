@@ -11,7 +11,8 @@
 
 <body>
     <div class="container">
-        <div class="notice" style="display: none;"> <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->>
+        <div class="notice" style="display: none;">
+            <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->>
             <div class="note"></div>
 
 
@@ -58,7 +59,7 @@
 
             </nav>
             <div class="content">
-              
+
 
 
 
@@ -370,10 +371,11 @@
             width: 100vw;
             height: 100vh;
             z-index: 5;
-          
-         
+
+
         }
-        .note{
+
+        .note {
             border: 1px solid rgb(0, 0, 0);
             z-index: 6;
             width: 300px;
@@ -1131,7 +1133,15 @@
                 document.getElementById('name').focus()
 
             }
+
+
+
             else {
+                if (name.toLowerCase().includes("jumli")) {
+                    alert('._. Get the f out of here ')
+                    name = "Gay"
+
+                }
                 window.scrollTo({ "behavior": "smooth", "top": 0 })
                 document.getElementsByClassName('second')[0].style.display = 'none'
                 document.getElementsByClassName('third')[0].style.display = 'block'

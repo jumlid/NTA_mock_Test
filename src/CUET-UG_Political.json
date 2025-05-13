@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "question": "The Constitution of India came into effect on:",
+        "options": {
+            "1": "15th August 1947",
+            "2": "26th January 1950",
+            "3": "26th November 1949",
+            "4": "2nd October 1950"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 2,
+        "question": "The Preamble of the Indian Constitution declares India as:",
+        "options": {
+            "1": "Sovereign, Socialist, Secular, Democratic Republic",
+            "2": "Federal, Secular, Democratic Republic",
+            "3": "Unitary, Socialist, Secular, Democratic Republic",
+            "4": "Sovereign, Secular, Democratic Republic"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 3,
+        "question": "Which part of the Constitution deals with Fundamental Rights?",
+        "options": {
+            "1": "Part I",
+            "2": "Part II",
+            "3": "Part III",
+            "4": "Part IV"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 4,
+        "question": "The concept of 'Directive Principles of State Policy' is borrowed from:",
+        "options": {
+            "1": "USA",
+            "2": "UK",
+            "3": "Ireland",
+            "4": "Canada"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 5,
+        "question": "The term 'Secular' was added to the Preamble by which amendment?",
+        "options": {
+            "1": "42nd Amendment",
+            "2": "44th Amendment",
+            "3": "52nd Amendment",
+            "4": "73rd Amendment"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 6,
+        "question": "The President of India is elected by:",
+        "options": {
+            "1": "People of India",
+            "2": "Members of Parliament",
+            "3": "Electoral College",
+            "4": "Council of Ministers"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 7,
+        "question": "The Supreme Court of India was established in:",
+        "options": {
+            "1": "1947",
+            "2": "1950",
+            "3": "1952",
+            "4": "1956"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 8,
+        "question": "The minimum age to become a member of the Lok Sabha is:",
+        "options": {
+            "1": "18 years",
+            "2": "21 years",
+            "3": "25 years",
+            "4": "30 years"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 9,
+        "question": "Which article of the Constitution deals with the Right to Equality?",
+        "options": {
+            "1": "Article 14",
+            "2": "Article 19",
+            "3": "Article 21",
+            "4": "Article 32"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 10,
+        "question": "The concept of 'Separation of Powers' was proposed by:",
+        "options": {
+            "1": "John Locke",
+            "2": "Montesquieu",
+            "3": "Rousseau",
+            "4": "Plato"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 11,
+        "question": "Which body is responsible for conducting elections in India?",
+        "options": {
+            "1": "Election Commission",
+            "2": "Supreme Court",
+            "3": "Parliament",
+            "4": "President"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 12,
+        "question": "The term 'State' in Political Science refers to:",
+        "options": {
+            "1": "A political community with a government",
+            "2": "A geographical area",
+            "3": "A federal unit",
+            "4": "An economic entity"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 13,
+        "question": "The 'Right to Education' is a fundamental right under which article?",
+        "options": {
+            "1": "Article 19",
+            "2": "Article 21A",
+            "3": "Article 29",
+            "4": "Article 45"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 14,
+        "question": "Which of the following is not a fundamental right?",
+        "options": {
+            "1": "Right to Equality",
+            "2": "Right to Property",
+            "3": "Right to Freedom",
+            "4": "Right against Exploitation"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 15,
+        "question": "The term 'Democracy' means:",
+        "options": {
+            "1": "Rule by the king",
+            "2": "Rule by the people",
+            "3": "Rule by the army",
+            "4": "Rule by the clergy"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 16,
+        "question": "Which of the following is a feature of a federal government?",
+        "options": {
+            "1": "Single government",
+            "2": "Division of powers between central and state governments",
+            "3": "Unitary control",
+            "4": "Dictatorship"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 17,
+        "question": "The 'Right to Constitutional Remedies' is provided under:",
+        "options": {
+            "1": "Article 32",
+            "2": "Article 14",
+            "3": "Article 19",
+            "4": "Article 21"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 18,
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": {
+            "1": "Mahatma Gandhi",
+            "2": "Jawaharlal Nehru",
+            "3": "B.R. Ambedkar",
+            "4": "Sardar Patel"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 19,
+        "question": "Which of the following is not a function of the Parliament?",
+        "options": {
+            "1": "Making laws",
+            "2": "Implementing laws",
+            "3": "Controlling finances",
+            "4": "Checking the executive"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 20,
+        "question": "The term 'Secularism' in the Indian context means:",
+        "options": {
+            "1": "State religion",
+            "2": "Equal respect to all religions",
+            "3": "Promotion of one religion",
+            "4": "Atheism"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 21,
+        "question": "The Cold War was primarily a conflict between:",
+        "options": {
+            "1": "USA and Germany",
+            "2": "USA and USSR",
+            "3": "USA and China",
+            "4": "USA and Japan"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 22,
+        "question": "The Non-Aligned Movement was initiated in:",
+        "options": {
+            "1": "1955",
+            "2": "1961",
+            "3": "1947",
+            "4": "1971"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 23,
+        "question": "Which country is not a permanent member of the UN Security Council?",
+        "options": {
+            "1": "USA",
+            "2": "Germany",
+            "3": "Russia",
+            "4": "China"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 24,
+        "question": "The policy of 'Liberalization, Privatization, and Globalization' in India was introduced in:",
+        "options": {
+            "1": "1980",
+            "2": "1991",
+            "3": "2000",
+            "4": "1975"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 25,
+        "question": "The term 'Bipolarity' in international relations refers to:",
+        "options": {
+            "1": "Two superpowers dominating world politics",
+            "2": "Multiple centers of power",
+            "3": "Single superpower dominance",
+            "4": "No superpower"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 26,
+        "question": "The 'Green Revolution' in India was initiated to:",
+        "options": {
+            "1": "Promote industrial growth",
+            "2": "Increase agricultural production",
+            "3": "Enhance military strength",
+            "4": "Boost exports"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 27,
+        "question": "The 'Emergency' in India was declared in:",
+        "options": {
+            "1": "1975",
+            "2": "1984",
+            "3": "1991",
+            "4": "1962"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 28,
+        "question": "The 'Mandate System' was established after which war?",
+        "options": {
+            "1": "World War I",
+            "2": "World War II",
+            "3": "Cold War",
+            "4": "Gulf War"
+        },
+        "answer": "1"
+    }
+]

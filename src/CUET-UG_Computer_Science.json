@@ -1,0 +1,442 @@
+[
+    {
+        "id": 1,
+        "question": "What does HTTP stand for?",
+        "options": {
+            "1": "HyperText Transfer Protocol",
+            "2": "HyperText Transmission Process",
+            "3": "HighText Transfer Protocol",
+            "4": "HyperTransfer Text Protocol"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 2,
+        "question": "Which SQL command is used to retrieve data?",
+        "options": {
+            "1": "GET",
+            "2": "SELECT",
+            "3": "FETCH",
+            "4": "READ"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 3,
+        "question": "Which method is the entry point in a Java program?",
+        "options": {
+            "1": "start()",
+            "2": "init()",
+            "3": "main()",
+            "4": "run()"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 4,
+        "question": "Which device connects different networks together?",
+        "options": {
+            "1": "Switch",
+            "2": "Router",
+            "3": "Hub",
+            "4": "Repeater"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 5,
+        "question": "In SQL, which clause is used to filter records?",
+        "options": {
+            "1": "FILTER",
+            "2": "WHERE",
+            "3": "IF",
+            "4": "SELECT"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 6,
+        "question": "Which keyword is used to create a class in Java?",
+        "options": {
+            "1": "define",
+            "2": "new",
+            "3": "create",
+            "4": "class"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 7,
+        "question": "Which of these is NOT a type of computer network?",
+        "options": {
+            "1": "LAN",
+            "2": "MAN",
+            "3": "WAN",
+            "4": "PANIC"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 8,
+        "question": "Which SQL keyword is used to sort the result-set?",
+        "options": {
+            "1": "SORT BY",
+            "2": "ORDER",
+            "3": "ORDER BY",
+            "4": "SORT"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 9,
+        "question": "What does JVM stand for in Java?",
+        "options": {
+            "1": "Java Very Machine",
+            "2": "Java Virtual Machine",
+            "3": "Just Virtual Method",
+            "4": "Java Verified Module"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 10,
+        "question": "Which device forwards data packets between networks?",
+        "options": {
+            "1": "Router",
+            "2": "Bridge",
+            "3": "Switch",
+            "4": "Modem"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 11,
+        "question": "What is the purpose of the SQL 'JOIN' clause?",
+        "options": {
+            "1": "To delete rows",
+            "2": "To combine rows from two or more tables",
+            "3": "To rename columns",
+            "4": "To sort results"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is used to declare a variable in Java?",
+        "options": {
+            "1": "var",
+            "2": "int",
+            "3": "dim",
+            "4": "val"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 13,
+        "question": "What is the full form of IP?",
+        "options": {
+            "1": "Internet Provider",
+            "2": "Internal Protocol",
+            "3": "Internet Protocol",
+            "4": "Interface Protocol"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 14,
+        "question": "Which SQL keyword is used to insert new data?",
+        "options": {
+            "1": "ADD",
+            "2": "INSERT INTO",
+            "3": "APPEND",
+            "4": "NEW"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 15,
+        "question": "What does the keyword 'public' mean in Java?",
+        "options": {
+            "1": "Can be accessed by all classes",
+            "2": "Private to the class",
+            "3": "Only for static members",
+            "4": "For variables only"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 16,
+        "question": "What does URL stand for?",
+        "options": {
+            "1": "Uniform Resource Locator",
+            "2": "Universal Resource Link",
+            "3": "Unified Reference Locator",
+            "4": "Uniform Record Link"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 17,
+        "question": "Which SQL statement is used to remove a table?",
+        "options": {
+            "1": "DELETE TABLE",
+            "2": "REMOVE TABLE",
+            "3": "DROP TABLE",
+            "4": "ERASE TABLE"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 18,
+        "question": "Which of these is not a Java keyword?",
+        "options": {
+            "1": "class",
+            "2": "new",
+            "3": "goto",
+            "4": "define"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 19,
+        "question": "Which of the following is NOT a valid SQL data type?",
+        "options": {
+            "1": "VARCHAR",
+            "2": "INT",
+            "3": "FLOAT",
+            "4": "REALNUM"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 20,
+        "question": "What is the use of a switch in a network?",
+        "options": {
+            "1": "To power devices",
+            "2": "To store data",
+            "3": "To connect multiple devices",
+            "4": "To filter spam"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 21,
+        "question": "Which SQL clause is used to remove duplicate rows?",
+        "options": {
+            "1": "NO DUPLICATE",
+            "2": "UNIQUE",
+            "3": "DISTINCT",
+            "4": "FILTER"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 22,
+        "question": "Which of the following is a loop structure in Java?",
+        "options": {
+            "1": "repeat",
+            "2": "for",
+            "3": "next",
+            "4": "cycle"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 23,
+        "question": "Which of the following is a domain name?",
+        "options": {
+            "1": "http",
+            "2": "ftp",
+            "3": "www.google.com",
+            "4": "IP"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 24,
+        "question": "Which SQL statement is used to modify data?",
+        "options": {
+            "1": "ALTER",
+            "2": "EDIT",
+            "3": "UPDATE",
+            "4": "MODIFY"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 25,
+        "question": "Which of these is used to take user input in Java?",
+        "options": {
+            "1": "Input()",
+            "2": "get()",
+            "3": "Scanner",
+            "4": "System.in.print"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 26,
+        "question": "What does DNS stand for?",
+        "options": {
+            "1": "Data Name Service",
+            "2": "Domain Naming Server",
+            "3": "Domain Name System",
+            "4": "Dynamic Network Server"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 27,
+        "question": "In SQL, which function returns the number of rows?",
+        "options": {
+            "1": "COUNT()",
+            "2": "ROWS()",
+            "3": "NUMBER()",
+            "4": "TOTAL()"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 28,
+        "question": "Which method is used to print text in Java?",
+        "options": {
+            "1": "System.input",
+            "2": "System.print",
+            "3": "System.out.println",
+            "4": "Println"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 29,
+        "question": "Which topology uses a central hub?",
+        "options": {
+            "1": "Bus",
+            "2": "Ring",
+            "3": "Mesh",
+            "4": "Star"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 30,
+        "question": "Which of these is a valid SQL comparison operator?",
+        "options": {
+            "1": "===",
+            "2": "IS",
+            "3": "==",
+            "4": "="
+        },
+        "answer": "4"
+    },
+    {
+        "id": 31,
+        "question": "Which data type is used for decimal values in Java?",
+        "options": {
+            "1": "int",
+            "2": "char",
+            "3": "float",
+            "4": "string"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 32,
+        "question": "What is the function of a modem?",
+        "options": {
+            "1": "Store data",
+            "2": "Connect printer",
+            "3": "Convert digital to analog",
+            "4": "Boost signals"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 33,
+        "question": "Which clause in SQL groups rows with the same values?",
+        "options": {
+            "1": "GROUP BY",
+            "2": "ORDER BY",
+            "3": "WHERE",
+            "4": "SORT"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 34,
+        "question": "Which of the following is a correct variable declaration in Java?",
+        "options": {
+            "1": "int 2num;",
+            "2": "int num = 5;",
+            "3": "num int = 5;",
+            "4": "int = num 5;"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 35,
+        "question": "What is the default port for HTTP?",
+        "options": {
+            "1": "21",
+            "2": "25",
+            "3": "80",
+            "4": "443"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 36,
+        "question": "Which SQL command deletes all rows from a table?",
+        "options": {
+            "1": "DELETE ALL",
+            "2": "ERASE",
+            "3": "REMOVE",
+            "4": "DELETE FROM"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 37,
+        "question": "Which of the following is a class in Java?",
+        "options": {
+            "1": "Scanner",
+            "2": "reader",
+            "3": "Getline",
+            "4": "Inputer"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 38,
+        "question": "Which device is used to regenerate weak signals?",
+        "options": {
+            "1": "Router",
+            "2": "Switch",
+            "3": "Repeater",
+            "4": "Firewall"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 39,
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": {
+            "1": "implement",
+            "2": "inherits",
+            "3": "extends",
+            "4": "uses"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 40,
+        "question": "Which command is used to give a condition in SQL?",
+        "options": {
+            "1": "IF",
+            "2": "CASE",
+            "3": "WHERE",
+            "4": "CONDITION"
+        },
+        "answer": "3"
+    }
+]

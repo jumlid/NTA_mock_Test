@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "question": "Which civilization is known for its earliest system of writing called cuneiform?",
+        "options": {
+            "1": "Indus Valley Civilization",
+            "2": "Egyptian Civilization",
+            "3": "Mesopotamian Civilization",
+            "4": "Chinese Civilization"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 2,
+        "question": "The Roman Empire spanned across which three continents?",
+        "options": {
+            "1": "Asia, Africa, Europe",
+            "2": "Asia, Europe, Australia",
+            "3": "Africa, Europe, South America",
+            "4": "Asia, Africa, North America"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 3,
+        "question": "Which empire is associated with the term 'Nomadic Empires'?",
+        "options": {
+            "1": "Roman Empire",
+            "2": "Mongol Empire",
+            "3": "Ottoman Empire",
+            "4": "British Empire"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 4,
+        "question": "The 'Three Orders' in medieval Europe refer to:",
+        "options": {
+            "1": "Kings, Nobles, Peasants",
+            "2": "Clergy, Nobility, Peasantry",
+            "3": "Merchants, Artisans, Farmers",
+            "4": "Knights, Bishops, Serfs"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 5,
+        "question": "The Renaissance period is best known for:",
+        "options": {
+            "1": "Religious Reforms",
+            "2": "Scientific Discoveries",
+            "3": "Revival of Art and Learning",
+            "4": "Industrial Revolution"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 6,
+        "question": "Which event marked the beginning of the French Revolution?",
+        "options": {
+            "1": "Storming of the Bastille",
+            "2": "Execution of Louis XVI",
+            "3": "Declaration of the Rights of Man",
+            "4": "Reign of Terror"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 7,
+        "question": "The Industrial Revolution began in which country?",
+        "options": {
+            "1": "Germany",
+            "2": "France",
+            "3": "England",
+            "4": "USA"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 8,
+        "question": "Which invention is attributed to James Watt?",
+        "options": {
+            "1": "Telephone",
+            "2": "Steam Engine",
+            "3": "Light Bulb",
+            "4": "Printing Press"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 9,
+        "question": "The term 'Enlightenment' refers to:",
+        "options": {
+            "1": "A religious movement",
+            "2": "A political revolution",
+            "3": "An intellectual movement emphasizing reason",
+            "4": "A scientific discovery"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 10,
+        "question": "Who wrote 'The Wealth of Nations'?",
+        "options": {
+            "1": "Karl Marx",
+            "2": "Adam Smith",
+            "3": "John Locke",
+            "4": "Voltaire"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 11,
+        "question": "The Indus Valley Civilization is also known as:",
+        "options": {
+            "1": "Harappan Civilization",
+            "2": "Mesopotamian Civilization",
+            "3": "Egyptian Civilization",
+            "4": "Chinese Civilization"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 12,
+        "question": "Ashoka's inscriptions were primarily written in which script?",
+        "options": {
+            "1": "Brahmi",
+            "2": "Kharosthi",
+            "3": "Devanagari",
+            "4": "Sanskrit"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 13,
+        "question": "The Bhakti movement emphasized:",
+        "options": {
+            "1": "Rituals and ceremonies",
+            "2": "Devotion to a personal god",
+            "3": "Caste hierarchy",
+            "4": "Vedic sacrifices"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 14,
+        "question": "Who was the founder of the Vijayanagara Empire?",
+        "options": {
+            "1": "Krishnadevaraya",
+            "2": "Harihara and Bukka",
+            "3": "Rama Raya",
+            "4": "Devaraya II"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 15,
+        "question": "The Mughal emperor known for his policy of religious tolerance was:",
+        "options": {
+            "1": "Babur",
+            "2": "Akbar",
+            "3": "Aurangzeb",
+            "4": "Shah Jahan"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 16,
+        "question": "The term 'Sufi' is associated with which religion?",
+        "options": {
+            "1": "Hinduism",
+            "2": "Buddhism",
+            "3": "Islam",
+            "4": "Jainism"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 17,
+        "question": "The 'Ain-i-Akbari' was written by:",
+        "options": {
+            "1": "Abul Fazl",
+            "2": "Birbal",
+            "3": "Tansen",
+            "4": "Raja Todar Mal"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 18,
+        "question": "The 1857 Revolt is also known as:",
+        "options": {
+            "1": "First War of Independence",
+            "2": "Sepoy Mutiny",
+            "3": "Indian Rebellion",
+            "4": "All of the above"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 19,
+        "question": "The term 'Zamindar' refers to:",
+        "options": {
+            "1": "A soldier",
+            "2": "A land revenue collector",
+            "3": "A priest",
+            "4": "A merchant"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 20,
+        "question": "The 'Permanent Settlement' was introduced by:",
+        "options": {
+            "1": "Lord Wellesley",
+            "2": "Lord Cornwallis",
+            "3": "Lord Dalhousie",
+            "4": "Lord Canning"
+        },
+        "answer": "2"
+    }
+]

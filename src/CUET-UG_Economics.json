@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is a primary source of data?",
+        "options": {
+            "1": "Census",
+            "2": "Newspaper",
+            "3": "Magazine",
+            "4": "Internet"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 2,
+        "question": "In statistics, the term 'population' refers to:",
+        "options": {
+            "1": "Group of people",
+            "2": "Entire set of items under study",
+            "3": "Sample data",
+            "4": "None of the above"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 3,
+        "question": "Which diagram is used to represent frequency distribution?",
+        "options": {
+            "1": "Pie chart",
+            "2": "Histogram",
+            "3": "Line graph",
+            "4": "Bar diagram"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 4,
+        "question": "The measure of central tendency that divides the data into two equal parts is:",
+        "options": {
+            "1": "Mean",
+            "2": "Mode",
+            "3": "Median",
+            "4": "Range"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 5,
+        "question": "In economics, scarcity means:",
+        "options": {
+            "1": "Limited wants",
+            "2": "Unlimited resources",
+            "3": "Limited resources for unlimited wants",
+            "4": "None of the above"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is not a factor of production?",
+        "options": {
+            "1": "Land",
+            "2": "Labor",
+            "3": "Capital",
+            "4": "Money"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 7,
+        "question": "The law of demand states that:",
+        "options": {
+            "1": "Price and demand are directly related",
+            "2": "Price and demand are inversely related",
+            "3": "Demand creates its own supply",
+            "4": "Supply creates its own demand"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 8,
+        "question": "Which market structure has a single seller?",
+        "options": {
+            "1": "Perfect competition",
+            "2": "Monopoly",
+            "3": "Oligopoly",
+            "4": "Monopolistic competition"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 9,
+        "question": "Elasticity of demand measures:",
+        "options": {
+            "1": "Change in demand due to change in price",
+            "2": "Change in supply due to change in price",
+            "3": "Change in price due to change in demand",
+            "4": "None of the above"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 10,
+        "question": "In perfect competition, the price is determined by:",
+        "options": {
+            "1": "Government",
+            "2": "Individual firms",
+            "3": "Market forces of demand and supply",
+            "4": "Monopolist"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 11,
+        "question": "National income is the sum of:",
+        "options": {
+            "1": "All incomes earned by residents and non-residents",
+            "2": "All incomes earned by residents within the country",
+            "3": "All incomes earned by residents in the domestic territory",
+            "4": "All incomes earned by residents and non-residents in the domestic territory"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is not included in the calculation of GDP?",
+        "options": {
+            "1": "Value of intermediate goods",
+            "2": "Value of final goods",
+            "3": "Government expenditure",
+            "4": "Net exports"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 13,
+        "question": "Money supply in an economy includes:",
+        "options": {
+            "1": "Currency with the public",
+            "2": "Demand deposits with banks",
+            "3": "Both (1) and (2)",
+            "4": "Only currency with the government"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 14,
+        "question": "Which institution is known as the 'lender of last resort'?",
+        "options": {
+            "1": "Commercial banks",
+            "2": "Reserve Bank of India",
+            "3": "State Bank of India",
+            "4": "World Bank"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 15,
+        "question": "Fiscal deficit is calculated as:",
+        "options": {
+            "1": "Total expenditure minus total revenue",
+            "2": "Revenue expenditure minus revenue receipts",
+            "3": "Capital expenditure minus capital receipts",
+            "4": "Total expenditure minus total receipts excluding borrowings"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 16,
+        "question": "Balance of payments includes:",
+        "options": {
+            "1": "Current account only",
+            "2": "Capital account only",
+            "3": "Both current and capital accounts",
+            "4": "Only trade balance"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 17,
+        "question": "Which of the following is a component of aggregate demand?",
+        "options": {
+            "1": "Consumption expenditure",
+            "2": "Investment expenditure",
+            "3": "Government expenditure",
+            "4": "All of the above"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 18,
+        "question": "The term 'liberalization' in economic reforms refers to:",
+        "options": {
+            "1": "Removal of trade barriers",
+            "2": "Increase in taxes",
+            "3": "Nationalization of industries",
+            "4": "Restriction on foreign investments"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 19,
+        "question": "Which sector is known as the 'tertiary sector'?",
+        "options": {
+            "1": "Agriculture",
+            "2": "Manufacturing",
+            "3": "Services",
+            "4": "Mining"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 20,
+        "question": "Human Development Index (HDI) does not include:",
+        "options": {
+            "1": "Life expectancy",
+            "2": "Education level",
+            "3": "Per capita income",
+            "4": "Gross Domestic Product"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 21,
+        "question": "Inflation refers to:",
+        "options": {
+            "1": "Rise in employment",
+            "2": "Fall in prices",
+            "3": "Fall in output",
+            "4": "Rise in general price level"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 22,
+        "question": "When was the first official census conducted in India?",
+        "options": {
+            "1": "1881",
+            "2": "1871",
+            "3": "1891",
+            "4": "1901"
+        },
+        "answer": "1"
+    },
+    {
+        "id": 23,
+        "question": "Which is a feature of a developing economy like India?",
+        "options": {
+            "1": "High per capita income",
+            "2": "Low dependence on agriculture",
+            "3": "High population growth",
+            "4": "Advanced technology"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 24,
+        "question": "Disguised unemployment is mostly found in:",
+        "options": {
+            "1": "Urban industries",
+            "2": "Government jobs",
+            "3": "Agricultural sector",
+            "4": "IT sector"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 25,
+        "question": "Which committee is related to poverty estimation in India?",
+        "options": {
+            "1": "Gadgil Committee",
+            "2": "Tendulkar Committee",
+            "3": "Verma Committee",
+            "4": "Kothari Committee"
+        },
+        "answer": "2"
+    },
+    {
+        "id": 26,
+        "question": "Which of the following is not included in Human Development Index (HDI)?",
+        "options": {
+            "1": "Life expectancy",
+            "2": "Education level",
+            "3": "Per capita income",
+            "4": "Political stability"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 27,
+        "question": "Microeconomics deals with:",
+        "options": {
+            "1": "National income",
+            "2": "General price level",
+            "3": "Individual consumer behavior",
+            "4": "Inflation"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 28,
+        "question": "Which of the following is not a central problem of the economy?",
+        "options": {
+            "1": "What to produce?",
+            "2": "How to produce?",
+            "3": "For whom to produce?",
+            "4": "Why to produce?"
+        },
+        "answer": "4"
+    },
+    {
+        "id": 29,
+        "question": "Market equilibrium is achieved when:",
+        "options": {
+            "1": "Supply > Demand",
+            "2": "Demand > Supply",
+            "3": "Supply = Demand",
+            "4": "None of the above"
+        },
+        "answer": "3"
+    },
+    {
+        "id": 30,
+        "question": "When Marginal Cost is equal to Average Cost, then:",
+        "options": {
+            "1": "AC is increasing",
+            "2": "AC is constant",
+            "3": "AC is decreasing",
+            "4": "None"
+        },
+        "answer": "2"
+    }
+]

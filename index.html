@@ -6,7 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NTA</title>
-    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAFaoCgBZqg4HVKcFSFKnA6dSpgLjUqYB+1KmAftSpgLjUqcDp1SnBUhYqg0HVqgJAAAAAAAAAAAAY68hAFSnBQBVqAgYUqcDklGmAe5RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9RpgHuU6cDkVaoCBhUqAcAW6sAAFSnBgBWqAoYUqYCsFGmAP9RpgH3UaYB8VGmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9SpgKwVqgKGFSnBgBdrBgGU6cEklGmAP9RpgD8U6cDh1SoBFpRpgHqUaYA/1GmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1OnBJFdrBgGVagISVGmAe1RpgD+U6cBlkOicBUml/8OVKcCXVGmAe1RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9RpgHtVKgHSVOnBKdRpgD+UqcAmEaiXBcglPqFIJT4oiqY6RJVqANfUaYB7FGmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1OnBKZSpwLfVKcAlDmelSUflPqSHpP3+R6T9/0glPiVKJflDlSnAlxRpgHqUaYA/1GmAP9RpgD/UaYA/1GmAP9SpwLiU6cQfCuY0FEfk/m/HpP3/R6T9/8ek/f/HpP3+yCU+JYnl/MRVagAU1GmAeVRpgD/UaYA/1GmAP9RpgD/UqYB+iGV9aMek/jsHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f9IJT4piOV/htWqABGUqYB3FGmAP9RpgD/UaYA/1KmAfoflPfjHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8flPfCIJT+NFepADhSpgHNUaYA/1GmAP9SpwLiIZT3px6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x+T9+EglP1jTaUzMlOnALZRpgD/U6cEpyOV90kfk/ftHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP39x+T+6Q0nKhIUqcIjlWoB0cwm/gGIJT3kh6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP54SaW7kn//wAAIpX3ACWW9xgglPewHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x+U97IllvcaIpX3AEmn+gAhlPcAJJb3GCCU95Iek/fuHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/H5P37iCU95IklvcYIpX3AC+b+AAAAAAAAAAAACWW+AAomPgHIpX3SSCU96gflPfkH5P3/B+T9/sflPfkIJT3qCKV90gqmfgHJpf3AAAAAAAAAAAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIABAADAAwAA4AcAAA==" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAFaoCgBZqg4HVKcFSFKnA6dSpgLjUqYB+1KmAftSpgLjUqcDp1SnBUhYqg0HVqgJAAAAAAAAAAAAY68hAFSnBQBVqAgYUqcDklGmAe5RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9RpgHuU6cDkVaoCBhUqAcAW6sAAFSnBgBWqAoYUqYCsFGmAP9RpgH3UaYB8VGmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9SpgKwVqgKGFSnBgBdrBgGU6cEklGmAP9RpgD8U6cDh1SoBFpRpgHqUaYA/1GmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1OnBJFdrBgGVagISVGmAe1RpgD+U6cBlkOicBUml/8OVKcCXVGmAe1RpgD/UaYA/1GmAP9RpgD/UaYA/1GmAP9RpgHtVKgHSVOnBKdRpgD+UqcAmEaiXBcglPqFIJT4oiqY6RJVqANfUaYB7FGmAP9RpgD/UaYA/1GmAP9RpgD/UaYA/1OnBKZSpwLfVKcAlDmelSUflPqSHpP3+R6T9/0glPiVKJflDlSnAlxRpgHqUaYA/1GmAP9RpgD/UaYA/1GmAP9SpwLiU6cQfCuY0FEfk/m/HpP3/R6T9/8ek/f/HpP3+yCU+JYnl/MRVagAU1GmAeVRpgD/UaYA/1GmAP9RpgD/UqYB+iGV9aMek/jsHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f9IJT4piOV/htWqABGUqYB3FGmAP9RpgD/UaYA/1KmAfoflPfjHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8flPfCIJT+NFepADhSpgHNUaYA/1GmAP9SpwLiIZT3px6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x+T9+EglP1jTaUzMlOnALZRpgD/U6cEpyOV90kfk/ftHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP39x+T+6Q0nKhIUqcIjlWoB0cwm/gGIJT3kh6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP54SaW7kn//wAAIpX3ACWW9xgglPewHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/HpP3/x+U97IllvcaIpX3AEmn+gAhlPcAJJb3GCCU95Iek/fuHpP3/x6T9/8ek/f/HpP3/x6T9/8ek/f/H5P37iCU95IklvcYIpX3AC+b+AAAAAAAAAAAACWW+AAomPgHIpX3SSCU96gflPfkH5P3/B+T9/sflPfkIJT3qCKV90gqmfgHJpf3AAAAAAAAAAAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIABAADAAwAA4AcAAA=="
+        type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -30,10 +32,11 @@
                     For accurate and official information, please visit the official NTA quiz portal here:
                     <a style=" color: white;" href="https://www.nta.ac.in/quiz"> https://www.nta.ac.in/quiz.</a>
 
-                <B>click the insta icon given below for any query <a
-                        style="color: white;"
-                        href="https://github.com/jumlid/NTA_mock_Test">https://github.com/jumlid/NTA </a>Go to my github profile for source code </B>
-                       <br> <p style="margin-left: 60%">~Jumli</p> 
+                <B>click the insta icon given below for any query <a style="color: white;"
+                        href="https://github.com/jumlid/NTA_mock_Test">https://github.com/jumlid/NTA </a>Go to my github
+                    profile for source code </B>
+                <br>
+                <p style="margin-left: 60%">~Jumli</p>
                 </p>
                 <!-- I was trying to add a notice board  but i'll do this in near future i hope so -->
 
@@ -70,12 +73,13 @@
                 </select>
                 <p>Paper</p>
                 <select class="sub">
-                    <option class="o" value="None">--Select--</option>
+                    <option value="None">--Select--</option>
 
-                    <option class="o" value="Geography">Geography</option>
-                    <option class="o" value="Computer_Science">Computer Science</option>
-                    <option class="o" value="History">History</option>
-                    <option class="o" value="Political">Political</option>
+                    <option value="Geography">Geography</option>
+                    <option value="Computer_Science">Computer Science</option>
+                    <option value="History">History</option>
+                    <option value="Political">Political</option>
+                    <option value="Economics">Economics</option>
                 </select>
                 <button id="start_mock" onclick="start_test()"> Start mock test</button>
             </div>
@@ -398,18 +402,19 @@
     <footer>
 
         <div class="contact_i" onclick="window.location.href='https://www.instagram.com/boi.404/'">Follow me</div>
-        <p>Last updated: 14/05/2025 12:25AM </p>
+        <p>Last updated: 14/05/2025 10:32AM </p>
 
     </footer>
 
     </div>
 
     <style>
-        footer p{
-           margin-left: auto;
+        footer p {
+            margin-left: auto;
             color: white;
             font-size: 10px;
         }
+
         .select {
 
             height: 700px;
@@ -1380,7 +1385,7 @@
                 document.getElementsByClassName("second")[0].style.display = 'block'
                 url = `src/${exam}_${sub}.json`
             }
-          //  console.log(exam, sub)
+            //  console.log(exam, sub)
 
 
 
@@ -1388,7 +1393,7 @@
         }
 
         function login() {
-          //  console.log(exam, sub)
+            //  console.log(exam, sub)
             name = document.getElementById('name').value
             //  alert(name)
             if (name === '') {
@@ -1402,7 +1407,7 @@
             else {
                 if (name.toLowerCase().includes("jumli")) {
                     alert("😒")
-                   
+
                     name = "😒"
 
                 }
@@ -1513,8 +1518,8 @@
 
         let i = 0
         function display(n) {
-           // console.log(exam)
-          //  console.log(sub)
+            // console.log(exam)
+            //  console.log(sub)
 
 
             fetch(url)

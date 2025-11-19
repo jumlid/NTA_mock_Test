@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "question": "Which country has the highest number of time zones including overseas territories?",
+    "options": {
+      "1": "Russia",
+      "2": "France",
+      "3": "United States",
+      "4": "China"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 2,
+    "question": "What is the name of the line at 23.5° S latitude parallel to the Tropic of Cancer?",
+    "options": {
+      "1": "Equator",
+      "2": "Arctic Circle",
+      "3": "Antarctic Circle",
+      "4": "Tropic of Capricorn"
+    },
+    "answer": "4"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following rivers does *not* flow into the Arctic Ocean?",
+    "options": {
+      "1": "Mackenzie",
+      "2": "Yenisei",
+      "3": "Ob",
+      "4": "Columbia"
+    },
+    "answer": "4"
+  },
+  {
+    "id": 4,
+    "question": "The ‘Ring of Fire’ is mainly associated with what geological feature?",
+    "options": {
+      "1": "Deep sea trenches and volcanoes",
+      "2": "Mountain chain formations",
+      "3": "Equatorial rain forests",
+      "4": "Glacial lakes"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 5,
+    "question": "Which country’s coastline is the longest in the world?",
+    "options": {
+      "1": "Australia",
+      "2": "Indonesia",
+      "3": "Canada",
+      "4": "Norway"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 6,
+    "question": "Which of these countries is landlocked?",
+    "options": {
+      "1": "Bosnia and Herzegovina",
+      "2": "Laos",
+      "3": "Togo",
+      "4": "Gabon"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 7,
+    "question": "The Great Barrier Reef lies off the coast of which Australian state?",
+    "options": {
+      "1": "New South Wales",
+      "2": "Queensland",
+      "3": "Western Australia",
+      "4": "Victoria"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 8,
+    "question": "Which country has the most UNESCO World Heritage Sites (as of recent lists)?",
+    "options": {
+      "1": "Italy",
+      "2": "China",
+      "3": "Spain",
+      "4": "Germany"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 9,
+    "question": "Which biome covers most of northern Russia and Canada?",
+    "options": {
+      "1": "Tundra",
+      "2": "Taiga (Boreal forest)",
+      "3": "Temperate grassland",
+      "4": "Savanna"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 10,
+    "question": "The term ‘watershed’ in physical geography refers to:",
+    "options": {
+      "1": "A storage dam for water",
+      "2": "The dividing ridge between drainage basins",
+      "3": "The lowest point in a river valley",
+      "4": "A seasonal riverbed"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 11,
+    "question": "Which desert lies primarily in Mongolia and Northern China?",
+    "options": {
+      "1": "Thar Desert",
+      "2": "Gobi Desert",
+      "3": "Karakum Desert",
+      "4": "Patagonian Desert"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 12,
+    "question": "Which strait separates Europe and Asia at the narrowest point?",
+    "options": {
+      "1": "Strait of Gibraltar",
+      "2": "Bering Strait",
+      "3": "Bosporus Strait",
+      "4": "Magellan Strait"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 13,
+    "question": "In the Köppen climate classification, which letter denotes a tropical monsoon climate?",
+    "options": {
+      "1": "Af",
+      "2": "Am",
+      "3": "Aw",
+      "4": "BSh"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 14,
+    "question": "What is the primary reason for unusual tidal phenomenon known as ‘spring tides’?",
+    "options": {
+      "1": "Sun and Moon at right angles to Earth",
+      "2": "Moon and Sun aligned with Earth",
+      "3": "Earth’s distance from Sun changes drastically",
+      "4": "Earth rotates slower"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 15,
+    "question": "Which mountain is the highest peak in Africa?",
+    "options": {
+      "1": "Mount Kenya",
+      "2": "Mount Kilimanjaro",
+      "3": "Mount El Gouna",
+      "4": "Mount Meru"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 16,
+    "question": "Which country has the youngest median age (lowest) among the following?",
+    "options": {
+      "1": "Germany",
+      "2": "Nigeria",
+      "3": "Japan",
+      "4": "Russia"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 17,
+    "question": "Which of these countries does *not* lie on the Equator?",
+    "options": {
+      "1": "Colombia",
+      "2": "Ecuador",
+      "3": "Kenya",
+      "4": "Peru"
+    },
+    "answer": "4"
+  },
+  {
+    "id": 18,
+    "question": "Which lake is known as the world’s largest saltwater lake?",
+    "options": {
+      "1": "Great Salt Lake",
+      "2": "Caspian Sea",
+      "3": "Lake Van",
+      "4": "Lake Urmia"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 19,
+    "question": "Which Indian state is known as the ‘Land of Rising Sun’ because its easternmost point lies in India?",
+    "options": {
+      "1": "Arunachal Pradesh",
+      "2": "Assam",
+      "3": "Nagaland",
+      "4": "Manipur"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 20,
+    "question": "Which plateau is considered the world’s highest and largest?",
+    "options": {
+      "1": "Deccan Plateau",
+      "2": "Tibetan Plateau",
+      "3": "Colorado Plateau",
+      "4": "Anatolian Plateau"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 21,
+    "question": "Which ocean current influences the mild climate of Western Europe despite its high latitude?",
+    "options": {
+      "1": "California Current",
+      "2": "Gulf Stream",
+      "3": "Labourador Current",
+      "4": "Benguela Current"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 22,
+    "question": "Which country stands on two tectonic plates, the North American and the Eurasian?",
+    "options": {
+      "1": "Greenland",
+      "2": "Turkey",
+      "3": "Iceland",
+      "4": "Russia"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 23,
+    "question": "Which is the deepest freshwater lake in the world?",
+    "options": {
+      "1": "Lake Baikal",
+      "2": "Lake Tanganyika",
+      "3": "Lake Vostok",
+      "4": "Lake Malawi"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 24,
+    "question": "Which major city is closest to the antipode of New York City (NY, USA)?",
+    "options": {
+      "1": "Buenos Aires, Argentina",
+      "2": "Perth, Australia",
+      "3": "Ulan Bator, Mongolia",
+      "4": "New Zealand (South Island)"
+    },
+    "answer": "4"
+  },
+  {
+    "id": 25,
+    "question": "Which country in South America does *not* speak Portuguese or Spanish as an official language?",
+    "options": {
+      "1": "Guyana",
+      "2": "Brazil",
+      "3": "Colombia",
+      "4": "Argentina"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 26,
+    "question": "Which island nation is entirely south of the Equator and east of the Prime Meridian?",
+    "options": {
+      "1": "Madagascar",
+      "2": "New Zealand",
+      "3": "Fiji",
+      "4": "Mauritius"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is **not** part of the Seven Summits (highest peaks on each continent)?",
+    "options": {
+      "1": "Mount Kosciuszko",
+      "2": "Mount Vinson",
+      "3": "Mount Elbrus",
+      "4": "Mount Denali"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 28,
+    "question": "What is orographic rainfall primarily caused by?",
+    "options": {
+      "1": "Rising humid air over mountains",
+      "2": "Air cooling at sea level",
+      "3": "Uneven heating of land and water",
+      "4": "Movement of monsoon winds only"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 29,
+    "question": "Which strait is the world’s busiest in terms of volume of shipping traffic?",
+    "options": {
+      "1": "Strait of Malacca",
+      "2": "Strait of Gibraltar",
+      "3": "Bosporus",
+      "4": "Hormuz"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 30,
+    "question": "Which Indian river has the largest water discharge average?",
+    "options": {
+      "1": "Ganga",
+      "2": "Brahmaputra",
+      "3": "Yamuna",
+      "4": "Godavari"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 31,
+    "question": "Which is the most populous country in Africa?",
+    "options": {
+      "1": "Egypt",
+      "2": "Ethiopia",
+      "3": "Nigeria",
+      "4": "South Africa"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 32,
+    "question": "In which layer of Earth’s atmosphere does most weather occur?",
+    "options": {
+      "1": "Stratosphere",
+      "2": "Mesosphere",
+      "3": "Troposphere",
+      "4": "Thermosphere"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 33,
+    "question": "Which U.S. state is the furthest west by longitude considering the Aleutian Islands?",
+    "options": {
+      "1": "California",
+      "2": "Alaska",
+      "3": "Hawaii",
+      "4": "Washington"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 34,
+    "question": "Which African country has Portuguese as its official language and is entirely in the Southern Hemisphere?",
+    "options": {
+      "1": "Mozambique",
+      "2": "Angola",
+      "3": "Cape Verde",
+      "4": "Guinea-Bissau"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 35,
+    "question": "Which country’s current capital is not its largest city, and used to be to another country’s capital in history?",
+    "options": {
+      "1": "Australia",
+      "2": "Canada",
+      "3": "Turkey",
+      "4": "USA"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 36,
+    "question": "Which of these is the most volcanically active country in the world?",
+    "options": {
+      "1": "Japan",
+      "2": "Indonesia",
+      "3": "Iceland",
+      "4": "Philippines"
+    },
+    "answer": "2"
+  },
+  {
+    "id": 37,
+    "question": "Which river forms part of the border between the United States and Mexico?",
+    "options": {
+      "1": "Mississippi River",
+      "2": "Colorado River",
+      "3": "Rio Grande",
+      "4": "Snake River"
+    },
+    "answer": "3"
+  },
+  {
+    "id": 38,
+    "question": "Which country in South Asia has the highest HDI (Human Development Index) among following?",
+    "options": {
+      "1": "Sri Lanka",
+      "2": "India",
+      "3": "Pakistan",
+      "4": "Bangladesh"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 39,
+    "question": "Which island group in the Pacific is largest by area?",
+    "options": {
+      "1": "Hawaiian Islands",
+      "2": "Fiji",
+      "3": "Mariana Islands",
+      "4": "Philippine Archipelago"
+    },
+    "answer": "4"
+  },
+  {
+    "id": 40,
+    "question": "Which trench is located in the Atlantic Ocean?",
+    "options": {
+      "1": "Puerto Rico Trench",
+      "2": "Mariana Trench",
+      "3": "Java Trench",
+      "4": "Tonga Trench"
+    },
+    "answer": "1"
+  }
+]
